@@ -1,0 +1,36 @@
+
+.wrapper{
+  margin: 16px auto 0px auto;
+  min-height: 2500px;
+  background-color: rgba(255, 255, 255, 0.08);
+}
+
+.header{
+
+  background-color:  #30AE63;
+  max-height: 301px;
+
+  //  background: #30AE63 url(../img/Group 25.png) 0 0 no-repeat /*cover*/;
+}
+.header_content {
+  max-width: 890px;
+  max-height: 252px;
+
+}
+.footer {
+ max-width: 844px;
+ width: 100%;
+ background-color: rgb(83, 64, 93);
+ margin: 0px auto;
+ flex-direction: column;
+ align-content: space-between;
+}
+.footer_content {
+ justify-content: space-between;
+
+}
+.footer_info, .footer_partner, .footer_more, .footer_contacts {
+  flex-direction: column;
+  max-width: 162px;
+
+}
