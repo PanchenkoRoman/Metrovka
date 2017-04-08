@@ -68,7 +68,13 @@
   border-radius: 2px;
   line-height: 40px;
   letter-spacing: 0.02px;
-  color: #FFFFFF;  }
+  color: #FFFFFF;
+  &:hover{
+    background: $prymary-color-hover;
+  }&:visited{
+    opacity: 0.5;
+     }
+}
 
 .dots{
   text-align: center;

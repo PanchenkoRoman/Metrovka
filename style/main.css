@@ -93,6 +93,10 @@ span {
   line-height: 40px;
   letter-spacing: 0.02px;
   color: #FFFFFF; }
+  .primary:hover {
+    background: #50DB88; }
+  .primary:visited {
+    opacity: 0.5; }
 
 .dots {
   text-align: center; }
