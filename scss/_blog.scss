@@ -1,0 +1,33 @@
+.blog-cards{
+  margin-top: -7px;
+  text-align: center;
+}
+.blog-card{
+  max-width: 272px;
+  display: inline-block;
+  text-align: left;
+  &:nth-child(2){
+    margin: 0 12px;
+  }h3{
+    font-size: 16px;
+       line-height: 24px;
+     }&:nth-child(2) .blog-type{
+             color: $prymary-color;
+           }&:last-child .blog-type{
+              color: #2573D8;
+            }
+}
+.blog-type{
+  text-transform: uppercase;
+  color: #BA8FF7;
+  display: inline-block;
+  font-size: 11px;
+  padding-top: 17px;
+}
+
+.blog-author{
+  color: #8C9BA5;
+  font-size: 11px;
+  line-height: 28px;
+}
+
