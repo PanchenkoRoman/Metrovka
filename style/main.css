@@ -20,21 +20,13 @@ span {
   font-family: Roboto;
   line-height: 20px; }
 
+.clearfix:after {
+  content: '';
+  display: table;
+  clear: both; }
+
 .container {
   margin: 0 auto; }
-
-.to-smt {
-  display: block;
-  background: #FFFFFF;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-  border: 2px solid #F0F3F6;
-  font-size: 16px;
-  line-height: 40px;
-  color: #152935;
-  max-width: 890px;
-  margin: 40px auto 0;
-  height: 40px;
-  text-align: center; }
 
 .main-text {
   padding-top: 60px;
@@ -78,25 +70,6 @@ span {
   .telegram-bot span {
     display: inline-block;
     padding-left: 25px; }
-
-.btn-large {
-  height: 40px;
-  width: 320px;
-  display: block;
-  margin-top: 30px; }
-
-.primary {
-  text-align: center;
-  background: #30AE63;
-  opacity: 1.00;
-  border-radius: 2px;
-  line-height: 40px;
-  letter-spacing: 0.02px;
-  color: #FFFFFF; }
-  .primary:hover {
-    background: #50DB88; }
-  .primary:visited {
-    opacity: 0.5; }
 
 .dots {
   text-align: center; }
@@ -142,3 +115,191 @@ span {
   color: #8C9BA5;
   font-size: 11px;
   line-height: 28px; }
+
+.btn-large {
+  height: 40px;
+  width: 320px;
+  display: block;
+  margin-top: 30px; }
+
+.primary {
+  text-align: center;
+  background: #30AE63;
+  opacity: 1.00;
+  border-radius: 2px;
+  line-height: 40px;
+  letter-spacing: 0.02px;
+  color: #FFFFFF; }
+  .primary:hover {
+    background: #50DB88; }
+  .primary:visited {
+    opacity: 0.5; }
+
+.to-smth {
+  display: block;
+  background: #FFFFFF;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  border: 2px solid #F0F3F6;
+  font-size: 16px;
+  line-height: 40px;
+  color: #152935;
+  max-width: 890px;
+  margin: 40px auto 0;
+  height: 40px;
+  text-align: center; }
+
+.price-btn {
+  display: block;
+  height: 36px;
+  width: 148px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 20px 0;
+  line-height: 36px; }
+  .price-btn img {
+    width: 19px;
+    height: 19px !important; }
+
+.high {
+  background: #FFEFEA;
+  color: #D00202; }
+
+.lov {
+  background: #EAFFF5;
+  color: #30AE63; }
+
+.send-btn {
+  height: 32px;
+  width: 70px;
+  display: block;
+  text-align: center;
+  line-height: 32px; }
+  .send-btn img {
+    margin-right: 0; }
+
+.duble {
+  display: flex;
+  justify-content: space-between; }
+
+.tel {
+  border: 2px solid #50DB88;
+  border-radius: 3px; }
+
+.mes {
+  border: 2px solid #2573D8;
+  border-radius: 3px; }
+
+.places {
+  display: flex;
+  justify-content: center; }
+
+.description-cards {
+  padding-right: 20px;
+  max-width: 890px;
+  padding-top: 20px; }
+  .description-cards span {
+    color: #2573D8; }
+
+.map {
+  width: 32%;
+  padding-top: 140px;
+  padding-left: 20px; }
+
+#sort {
+  margin-right: 30px; }
+
+.places-variant span {
+  color: #8C9BA5;
+  float: left; }
+
+.places-variant select {
+  color: #8C9BA5;
+  border: none;
+  float: right; }
+
+.places-variant select:focus {
+  border: none;
+  outline: none; }
+
+.home {
+  padding-top: 35px; }
+  .home h3 {
+    color: #2573D8;
+    font-size: 16px; }
+
+.home-img {
+  display: inline-block;
+  margin-right: 20px;
+  height: 100%; }
+
+.home-card-right {
+  float: right;
+  padding-top: 4px;
+  text-align: right;
+  padding-left: 110px; }
+  .home-card-right h3 {
+    color: #4A4A4A; }
+  .home-card-right span {
+    color: #8C9BA5; }
+
+.home-card-left {
+  float: left;
+  display: flex; }
+  .home-card-left .region {
+    color: #8C9BA5; }
+  .home-card-left .region-metro {
+    color: #8C9BA5;
+    display: inline-block;
+    padding-left: 20px; }
+
+.region span {
+  height: 8px;
+  width: 8px;
+  display: inline-block;
+  border-radius: 50%;
+  background-color: #30AE63;
+  margin: 0 10px 1px 0; }
+
+.region-blue span {
+  background-color: #2573D8; }
+
+.features {
+  padding: 23px 0 18px; }
+  .features span {
+    color: #8C9BA5;
+    line-height: 20px; }
+
+.card-features {
+  max-width: 345px;
+  padding-top: 4px; }
+
+#color {
+  color: black; }
+
+.home-dots {
+  text-align: center;
+  padding-top: 25px; }
+
+.home-dot-active, .home-dot {
+  height: 8px;
+  width: 8px;
+  margin-right: 20px;
+  display: inline-block;
+  border-radius: 50px;
+  background-color: #000000;
+  cursor: pointer; }
+
+.infr {
+  float: right;
+  color: #979797;
+  float: right;
+  color: #979797;
+  position: relative;
+  bottom: 20px; }
+  .infr p:last-child {
+    color: #000;
+    line-height: 25px; }
+
+.home-dot {
+  background-color: #979797; }

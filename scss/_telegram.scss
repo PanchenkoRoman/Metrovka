@@ -54,27 +54,6 @@
   }
 }
 
-.btn-large{
-  height: 40px;
-  width:320px;
-  display: block;
-  margin-top: 30px;
-}
-
-.primary{
-  text-align: center;
-  background: #30AE63;
-  opacity: 1.00;
-  border-radius: 2px;
-  line-height: 40px;
-  letter-spacing: 0.02px;
-  color: #FFFFFF;
-  &:hover{
-    background: $prymary-color-hover;
-  }&:visited{
-    opacity: 0.5;
-     }
-}
 
 .dots{
   text-align: center;

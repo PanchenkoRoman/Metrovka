@@ -1,6 +1,7 @@
 $font: Roboto;
 $prymary-color: #30AE63;
 $prymary-color-hover: #50DB88;
+$blue: #2573D8;
 html {
   box-sizing: border-box;
   font-family: $font;
@@ -23,24 +24,18 @@ span{
   font-family: $font;
   line-height: 20px;
 }
+.clearfix:after{
+  content: '';
+  display: table;
+  clear: both;
+}
 
 .container{
   margin: 0 auto;
 }
 
-.to-smt{
-  display: block;
-  background: #FFFFFF;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-  border: 2px solid #F0F3F6;
-  font-size: 16px;
-  line-height: 40px;
-  color: #152935;
-  max-width: 890px;
-  margin: 40px auto 0;
-  height: 40px;
-  text-align: center;
-}
 @import 'telegram';
 @import 'blog';
-
+@import "buttons";
+@import "layout-2";
+@import "desc-card";
