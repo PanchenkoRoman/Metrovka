@@ -1,7 +1,7 @@
 
 .wrapper{
   margin: 0px auto;
-  min-height: 2500px;
+  min-height: 2900px;
   background-color: rgba(255, 255, 255, 0.08);
   flex-direction: column;
 }
@@ -28,12 +28,10 @@
 .navigation {
   max-height: 40px;
   font-size: 14px;
-  line-height: 20 px;
+  line-height: 20px;
 
 }
-.header_ul {
-  display: flex;
-}
+
 .header_ul>li {
   margin-right: 10%;
 }
@@ -51,6 +49,75 @@
 }
 .content {
   flex-direction: column;
+  max-width: 890px;
+  margin: 0 auto;
+}
+.content_near_metro {
+  min-height: 295px;
+
+  background: #fff url('../img/illustration/metro.png') 90% 50% no-repeat ;
+  margin-top: 3%;
+
+
+
+}
+.select_type {
+  max-width: 320px;
+  max-height: 212px;
+  flex-direction: column;
+
+}
+
+.content_best {
+  min-height: 384px;
+  background-color: #fff;
+  margin-top: 3%;
+  flex-direction: column;
+
+
+}
+.best_cards {
+  justify-content: space-around;
+}
+.best_card {
+  flex-direction: column;
+  max-width: 202px;
+}
+.best_info {
+  color: #8C9BA5;
+  font-size: 11px;
+  line-height: 28px;
+}
+.best_metro {
+  color: #152935;
+  font-size: 14px;
+  line-height: 18px;
+}
+.content_last {
+  min-height: 444px;
+  background-color: #fff;
+  margin-top: 3%;
+  flex-direction: column;
+
+
+
+
+}
+.content_telegram {
+  min-height: 806px;
+  background-color: #fff;
+  margin-top: 3%;
+
+
+
+}
+.content_blog {
+  min-height: 518px;
+  background-color: #fff;
+  margin-top: 3%;
+
+
+
 }
 .footer {
  max-width: 844px;
@@ -60,7 +127,11 @@
  flex-direction: column;
  align-content: space-between;
 }
+.footer ul {
+  flex-direction: column;
+}
 .footer_content {
+
  justify-content: space-between;
 
 }

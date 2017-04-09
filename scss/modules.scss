@@ -4,7 +4,7 @@
   height: 40px;
   color: #fff;
 }
-.select_city {
+.select_form {
   width: 334px;
   height: 40px;
   border-radius: 2px;
@@ -36,3 +36,17 @@ option {
   font-size: 14px;
   line-height: 17.09px;
 }
+.btn_large {
+height: 40px;
+width:320px;
+display: block;
+margin-top: 30px;
+}
+.primary{
+  text-align: center;
+  background: #30AE63;
+  opacity: 1.00;
+  border-radius: 2px;
+  line-height: 40px;
+  letter-spacing: 0.02px;
+  color: #FFFFFF;  }
