@@ -1,30 +1,41 @@
 .header-insert {
-  background: rgba(255, 255, 255, 0.1) url("../img/Shape.svg") 0 50% no-repeat ;
+  background: rgba(255, 255, 255, 0.1) url("../img/Shape.svg") 17px 50% no-repeat ;
   width: 236px;
   height: 40px;
   color: #fff;
+  line-height: 17.09px;
+  font-size: 14px;
+  padding: 0px 0px 0px 11px;
 }
 .select-form {
-  width: 334px;
+  width: 344px;
   height: 40px;
   border-radius: 2px;
   border: 2px solid #DFE3E6;
   color: #152935;
   font-size: 14px;
   line-height: 18px;
+  padding-left: 12px;
+  padding-top: 3px;
 
 }
+.select-metro {
+  width: 315px;
+  font-size: 12px;
+  line-height: 16px;
+  margin-bottom: 2px;
+}
+
 option {
   color: #152935;
   font-size: 14px;
   line-height: 18px;
 }
-
-.checkbox1 {
-  display: block;
-  width: 40px;
-  height: 40px;
-  background: #fff url(../img/checkbox.png) 0 0 no-repeat;
+.checkbox {
+  margin-top: 9px;
+}
+.checkboxs {
+  margin-right: 10px;
 }
 .search-button {
   width: 201px;
@@ -35,6 +46,7 @@ option {
   color: #30AE63;
   font-size: 14px;
   line-height: 17.09px;
+  padding: 8px 40px;
 }
 .btn-large {
 height: 40px;
@@ -57,4 +69,37 @@ margin-top: 30px;
   display: block;
   line-height: 18px;
   font-size: 14px;
+}
+
+input[type="checkbox"] {
+  display:none;
+
+}
+input[type="checkbox"] + label span {
+  display:inline-block;
+   width:42px;
+   height:42px;
+   text-align: center;
+   padding-top: 12px;
+
+
+  background:url(../img/checkbox.png) 0 0 no-repeat;
+  cursor:pointer;
+}
+input[type="checkbox"]:checked + label span {
+  background:url(../img/checkbox_checked.png) 0 0 no-repeat;
+  color: #152935;
+}
+.to-smth {
+    display: block;
+    background: #FFFFFF;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    border: 2px solid #F0F3F6;
+    font-size: 16px;
+    line-height: 40px;
+    color: #152935;
+    max-width: 890px;
+    margin: 40px auto 0;
+    height: 40px;
+    text-align: center;
 }

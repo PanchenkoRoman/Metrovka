@@ -15,26 +15,28 @@
           <a href="index.html"><img src="img/logo.svg" alt="logo"></a>
           <div class="header-menu">
             <ul class="header-ul">
-              <li><a href="">Аренда</a></li>
+              <li><a href="" class="menu-active">Аренда</a></li>
               <li><a href="">Продажа</a></li>
               <li><a href="">Посуточно</a></li>
-              <li><a href="">Еще</a></li>
+              <li><a href="">• • •  Еще</a></li>
             </ul>
 
 
           </div>
           <div class="header-login">
-            <button type="button" name="insert" class="header-insert">Разместить объявление</button>
-            <a href="index.html">Войти</a>
+
+            <button class="header-insert"><a href="index.html">Разместить объявление</a></button>
+
+            <a href="index.html" class="header-login-href">Войти</a>
 
 
           </div>
 
         </div>
-        <h1>Поиcк недвижимости в Украине</h1>
+        <h1 class="header-h1">Поиcк недвижимости в Украине</h1>
         <div class="header-search">
           <div class="select">
-            <span>Выберите город</span>
+            <span class="select-span">Выберите город</span>
             <select class=" select-form" name="select-city">
               <option value="Киев" selected>Киев</option>
               <option value="Львов">Львов</option>
@@ -44,16 +46,16 @@
           <div class="header-checkbox">
             <span>Кол-во комнат</span>
             <div class="checkbox">
-            <input type="checkbox" name="checkbox1" class="checkbox-check1">
-            <label for="checkbox-check1"><span></span>Check Box 1</label>
-            <input type="checkbox" name="checkbox2" class="checkbox-check2">
-            <label for="checkbox-check2"><span></span>Check Box 2</label>
-            <input type="checkbox" name="checkbox3" class="checkbox-check3">
-            <label for="checkbox-check3"><span></span>Check Box 3</label>
-            <input type="checkbox" name="checkbox4" class="checkbox-check4">
-            <label for="checkbox-check4"><span></span>Check Box 4</label>
-            <input type="checkbox" name="checkbox5" class="checkbox-check5">
-            <label for="checkbox-check5"><span></span>Check Box 5</label>
+            <input type="checkbox" name="checkbox1" id="checkbox-check1" checked>
+            <label for="checkbox-check1" class="checkboxs"><span>1</span></label>
+            <input type="checkbox" name="checkbox2" id="checkbox-check2" checked>
+            <label for="checkbox-check2" class="checkboxs"><span>2</span></label>
+            <input type="checkbox" name="checkbox3" id="checkbox-check3">
+            <label for="checkbox-check3" class="checkboxs"><span>3</span></label>
+            <input type="checkbox" name="checkbox4" id="checkbox-check4">
+            <label for="checkbox-check4"class="checkboxs"><span>4</span></label>
+            <input type="checkbox" name="checkbox5" id="checkbox-check5">
+            <label for="checkbox-check5"><span>5+</span></label>
           </div>
 
           </div>
@@ -72,13 +74,13 @@
             <div class="select-type">
           <h2>Недвижимость возле метро</h2>
 
-            <ul>
-              <li><a href="">Квартиры</a></li>
+            <ul class="select-flats">
+              <li><a href="" class="flats_active">Квартиры</a></li>
               <li><a href=""></a>Дома</li>
               <li><a href=""></a>Офисы</li>
             </ul>
             <select name="select-metro" class="select-form select-metro">
-              <option value="Политехнический институт" selected>Политехнический институт</option>
+              <option value="Политехнический институт" selected><span class="metro">Политехнический институт</span></option>
               <option value="Золотые ворота">Золотые ворота</option>
             </select>
             <a href="#" class="primary btn-large">
