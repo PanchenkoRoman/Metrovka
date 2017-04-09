@@ -1,10 +1,10 @@
-.header_insert {
+.header-insert {
   background: rgba(255, 255, 255, 0.1) url("../img/Shape.svg") 0 50% no-repeat ;
   width: 236px;
   height: 40px;
   color: #fff;
 }
-.select_form {
+.select-form {
   width: 334px;
   height: 40px;
   border-radius: 2px;
@@ -26,7 +26,7 @@ option {
   height: 40px;
   background: #fff url(../img/checkbox.png) 0 0 no-repeat;
 }
-.search_button {
+.search-button {
   width: 201px;
   height: 40px;
   background-color: #fff;
@@ -36,7 +36,7 @@ option {
   font-size: 14px;
   line-height: 17.09px;
 }
-.btn_large {
+.btn-large {
 height: 40px;
 width:320px;
 display: block;
@@ -50,3 +50,11 @@ margin-top: 30px;
   line-height: 40px;
   letter-spacing: 0.02px;
   color: #FFFFFF;  }
+
+.application {
+  height: 40px;
+  width:162px;
+  display: block;
+  line-height: 18px;
+  font-size: 14px;
+}
