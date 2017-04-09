@@ -1,5 +1,7 @@
 .home{
-  padding-top: 35px;
+  margin-top: 20px;
+  background-color: white;
+  padding: 10px 20px;
   h3{
     color:$blue;
     font-size: 16px;
@@ -15,7 +17,7 @@
   float: right;
   padding-top: 4px;
   text-align: right;
-  padding-left: 110px;
+  padding-left: 75px;
   h3{
     color: #4A4A4A;
   }span{
@@ -68,7 +70,7 @@ color: black;
 
 .home-dots{
   text-align: center;
-  padding-top: 25px;
+  padding: 25px 0;
 }
 
 
@@ -87,14 +89,19 @@ color: black;
   float: right;
   color: #979797;
   position: relative;
-  bottom: 20px;
+  bottom: 52px;
+  right: 18px;
 
   p:last-child{
     color: #000;
     line-height: 25px;
   }
 }
+.home-after{
+  background: white;
 
+
+}
 .home-dot{
   @extend .home-dot-active;
   background-color: #979797;

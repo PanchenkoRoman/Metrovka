@@ -4,6 +4,9 @@ html {
   color: #152935;
   font-size: 14px; }
 
+body {
+  background: rgba(90, 104, 114, 0.08); }
+
 *, *:before, *:after {
   box-sizing: inherit; }
 
@@ -28,6 +31,10 @@ span {
 .container {
   margin: 0 auto; }
 
+.container-main {
+  margin: 0 auto;
+  max-width: 890px; }
+
 .main-text {
   padding-top: 60px;
   text-align: center;
@@ -51,8 +58,10 @@ span {
   padding-top: 45px;
   display: flex;
   align-items: center;
-  justify-content: center;
-  padding-bottom: 40px; }
+  justify-content: space-around;
+  padding-bottom: 40px;
+  max-width: 890px;
+  margin: 0 auto; }
   .telegram-merovka h2 {
     padding: 12px 0; }
   .telegram-merovka ol {
@@ -62,8 +71,8 @@ span {
       padding: 6px 0; }
 
 .telegram-bot {
-  padding-left: 135px;
-  padding-bottom: 26px; }
+  background: white;
+  padding: 32px 50px 50px 50px; }
   .telegram-bot h2 {
     display: flex;
     align-items: center; }
@@ -85,6 +94,12 @@ span {
 
 .dot-active {
   background: #30AE63; }
+
+.blog {
+  background: white;
+  margin-top: 50px; }
+  .blog .main-text {
+    padding-top: 7px; }
 
 .blog-cards {
   margin-top: -7px;
@@ -195,7 +210,6 @@ span {
   justify-content: center; }
 
 .description-cards {
-  padding-right: 20px;
   max-width: 890px;
   padding-top: 20px; }
   .description-cards span {
@@ -203,7 +217,7 @@ span {
 
 .map {
   width: 32%;
-  padding-top: 140px;
+  margin-top: 157px;
   padding-left: 20px; }
 
 #sort {
@@ -215,6 +229,7 @@ span {
 
 .places-variant select {
   color: #8C9BA5;
+  background: rgba(90, 104, 114, 0);
   border: none;
   float: right; }
 
@@ -223,7 +238,9 @@ span {
   outline: none; }
 
 .home {
-  padding-top: 35px; }
+  margin-top: 20px;
+  background-color: white;
+  padding: 10px 20px; }
   .home h3 {
     color: #2573D8;
     font-size: 16px; }
@@ -237,7 +254,7 @@ span {
   float: right;
   padding-top: 4px;
   text-align: right;
-  padding-left: 110px; }
+  padding-left: 75px; }
   .home-card-right h3 {
     color: #4A4A4A; }
   .home-card-right span {
@@ -279,7 +296,7 @@ span {
 
 .home-dots {
   text-align: center;
-  padding-top: 25px; }
+  padding: 25px 0; }
 
 .home-dot-active, .home-dot {
   height: 8px;
@@ -296,10 +313,14 @@ span {
   float: right;
   color: #979797;
   position: relative;
-  bottom: 20px; }
+  bottom: 52px;
+  right: 18px; }
   .infr p:last-child {
     color: #000;
     line-height: 25px; }
+
+.home-after {
+  background: white; }
 
 .home-dot {
   background-color: #979797; }
