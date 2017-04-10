@@ -2,248 +2,300 @@
 <html>
 <head lang="ru">
     <meta charset="UTF-8">
-    <title>Dataroot</title>
+    <title>Data-root</title>
     <link rel="stylesheet" type="text/css" href="style/reset.css">
     <link rel="stylesheet" type="text/css" href="style/main.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 </head>
 <body>
-  <div class="wrapper">
-    <header class="header">
-      <div class="header-content">
-        <div class="navigation">
-          <a href="index.html"><img src="img/logo.svg" alt="logo"></a>
-          <div class="header-menu">
-            <ul class="header-ul">
-              <li><a href="" class="menu-active">Аренда</a></li>
-              <li><a href="">Продажа</a></li>
-              <li><a href="">Посуточно</a></li>
-              <li><a href="">• • •  Еще</a></li>
-            </ul>
 
+<header class="header">
+  <div class="header-content container-main">
+    <div class="navigation">
+      <div class="header-menu">
+        <ul class="header-ul">
+          <li><a href="index.html"><img src="img/logo.svg" alt="logo"></a></li>
+          <li><a href="" class="menu-active">Аренда</a></li>
+          <li class="menu-hidden"><a href="">Продажа</a></li>
+          <li class="menu-hidden"><a href="">Посуточно</a></li>
+          <li class="menu-hidden"><a href="">• • •  Еще</a></li>
+        </ul>
 
-          </div>
-          <div class="header-login">
-
-            <button class="header-insert"><a href="index.html">Разместить объявление</a></button>
-
-            <a href="index.html" class="header-login-href">Войти</a>
-
-
-          </div>
-
-        </div>
-        <h1 class="header-h1">Поиcк недвижимости в Украине</h1>
-        <div class="header-search">
-          <div class="select">
-            <span class="select-span">Выберите город</span>
-            <select class=" select-form" name="select-city">
-              <option value="Киев" selected>Киев</option>
-              <option value="Львов">Львов</option>
-            </select>
-
-          </div>
-          <div class="header-checkbox">
-            <span>Кол-во комнат</span>
-            <div class="checkbox">
-            <input type="checkbox" name="checkbox1" id="checkbox-check1" checked>
-            <label for="checkbox-check1" class="checkboxs"><span>1</span></label>
-            <input type="checkbox" name="checkbox2" id="checkbox-check2" checked>
-            <label for="checkbox-check2" class="checkboxs"><span>2</span></label>
-            <input type="checkbox" name="checkbox3" id="checkbox-check3">
-            <label for="checkbox-check3" class="checkboxs"><span>3</span></label>
-            <input type="checkbox" name="checkbox4" id="checkbox-check4">
-            <label for="checkbox-check4"class="checkboxs"><span>4</span></label>
-            <input type="checkbox" name="checkbox5" id="checkbox-check5">
-            <label for="checkbox-check5"><span>5+</span></label>
-          </div>
-
-          </div>
-          <div class="search">
-            <a href="#" class="search-button">Перейти к поиску</a>
-
-          </div>
-
-        </div>
-      </div>
-
-    </header>
-    <div class="content">
-      <div class="content-near-metro">
-        <div class="near-metro">
-            <div class="select-type">
-          <h2>Недвижимость возле метро</h2>
-
-            <ul class="select-flats">
-              <li><a href="" class="flats_active">Квартиры</a></li>
-              <li><a href=""></a>Дома</li>
-              <li><a href=""></a>Офисы</li>
-            </ul>
-            <select name="select-metro" class="select-form select-metro">
-              <option value="Политехнический институт" selected><span class="metro">Политехнический институт</span></option>
-              <option value="Золотые ворота">Золотые ворота</option>
-            </select>
-            <a href="#" class="primary btn-large">
-                Показать результаты поиска
-            </a>
-          </div>
-        </div>
 
       </div>
-      <div class="content-best">
-            <h2>Лучшие предложения в Киеве</h2>
+      <div class="header-login">
 
-        <div class="best-cards">
-            <div class="best-card">
+        <button class="header-insert"><a href="index.html">Разместить объявление</a></button>
 
+        <a href="index.html" class="header-login-href">Войти</a>
 
-               <img src="img/card/images/Rectangle 11.png" alt="room"><br>
-                <span class="prise">7 800 грн.</span>
-                <img src="img/card/Group 3.svg" alt="check">
-                <span class="best-info">2 комн.  •  48 кв. метров</span>
-                <img src="img/Rectangle 430.svg" alt="•">
-                <span class="best-metro">Политехнический институт</span>
-            </div>
-            <div class="best-card">
-                <img src="img/card/images/Rectangle 11.png" alt="room"><br>
-                <span class="prise">10 200 грн.</span>
-                <img src="img/card/Group 3.svg" alt="check">
-                <span class="best-info">1 комн.  •  30 кв. метров</span>
-                <img src="img/Rectangle 430.svg" alt="•">
-                <span class="best-metro">Политехнический институт</span>
-            </div>
-            <div class="best-card">
-                <img src="img/card/images/Rectangle 11.png" alt="room"><br>
-                <span class="prise">6 900 грн.</span>
-                <img src="img/card/Group 3.svg" alt="check">
-                <span class="best-info">2 комн.  •  30 кв. метров</span>
-                <img src="img/Rectangle 430.svg" alt="•">
-                <span class="best-metro">Политехнический институт</span>
-            </div>
-            <div class="best-card">
-                <img src="img/card/images/Rectangle 11.png" alt="room"><br>
-                <span class="prise">9 000 грн.</span>
-                <img src="img/card/Group 3.svg" alt="check">
-                <span class="best-info">2 комн.  •  30 кв. метров</span>
-                <img src="img/Rectangle 430.svg" alt="•">
-                <span class="best-metro">Политехнический институт</span>
-            </div>
-        </div>
-        <a href="#" class="to-smt">
-            Смотреть лучшие ценовые предложения
-        </a>
 
       </div>
-      <div class="content-last">
-        <h2>Последние обьявления в Киеве</h2>
-        <ul>
-          <li><a href="">Квартиры</a></li>
+
+    </div>
+    <h1 class="header-h1">Поиcк недвижимости в Украине</h1>
+    <div class="header-search">
+      <div class="select">
+        <span class="select-span">Выберите город</span>
+        <select class=" select-form" name="select-city">
+          <option value="Киев" selected>Киев</option>
+          <option value="Львов">Львов</option>
+        </select>
+
+      </div>
+      <div class="header-checkbox">
+        <span>Кол-во комнат</span>
+        <div class="checkbox">
+        <input type="checkbox" name="checkbox1" id="checkbox-check1" checked>
+        <label for="checkbox-check1" class="checkboxs"><span>1</span></label>
+        <input type="checkbox" name="checkbox2" id="checkbox-check2" checked>
+        <label for="checkbox-check2" class="checkboxs"><span>2</span></label>
+        <input type="checkbox" name="checkbox3" id="checkbox-check3">
+        <label for="checkbox-check3" class="checkboxs"><span>3</span></label>
+        <input type="checkbox" name="checkbox4" id="checkbox-check4">
+        <label for="checkbox-check4"class="checkboxs"><span>4</span></label>
+        <input type="checkbox" name="checkbox5" id="checkbox-check5">
+        <label for="checkbox-check5"><span>5+</span></label>
+      </div>
+
+      </div>
+      <div class="search">
+        <a href="#" class="search-button">Перейти к поиску</a>
+
+      </div>
+
+    </div>
+  </div>
+
+</header>
+<div class="container-main">
+  <section class="content-near-metro blog">
+
+      <div class="select-type">
+      <h2>Недвижимость возле метро</h2>
+
+        <ul class="select-flats near-metro-flats">
+          <li><a href="" class="flats_active">Квартиры</a></li>
           <li><a href=""></a>Дома</li>
           <li><a href=""></a>Офисы</li>
         </ul>
+        <select name="select-metro" class="select-form select-metro">
+          <option value="Политехнический институт" selected><span class="metro">Политехнический институт</span></option>
+          <option value="Золотые ворота">Золотые ворота</option>
+        </select>
+        <a href="#" class="primary btn-large">
+            Показать результаты поиска
+        </a>
 
-    <div class="best-cards">
-        <div class="best-card">
+      </div>
 
+  </section>
+  <section class="content-best blog">
+      <div class="main-text">
+          <h2>Лучшие предложения в Киеве</h2><br>
 
-           <img src="img/room1.png" alt="room"><br>
-            <span class="prise">11 800 грн.</span>
-            <img src="img/card/Group 3.svg" alt="check">
-            <span class="best-info">2 комн.  •  48 кв. метров</span>
+      </div>
+      <div class="blog-cards">
+          <div class="blog-card">
+            <img src="img/card/images/Rectangle 11.png" alt="room"><br>
+             <span class="content-content-price">7 800 грн.</span>
+             <img src="img/card/Group 3.svg" alt="check"><br>
+             <span class="content-info">2 комн.  •  48 кв. метров</span><br>
+             <img src="img/Rectangle 430.svg" alt="•">
+             <span class="content-metro">Политехнический институт</span>
+          </div>
+          <div class="blog-card">
+            <img src="img/card/images/Rectangle 11.png" alt="room"><br>
+            <span class="content-price">10 200 грн.</span>
+            <img src="img/card/Group 3.svg" alt="check"><br>
+            <span class="content-info">1 комн.  •  30 кв. метров</span><br>
             <img src="img/Rectangle 430.svg" alt="•">
-            <span class="best-metro">Политехнический институт</span>
+            <span class="content-metro">Политехнический институт</span>
         </div>
-        <div class="best-card">
+          <div class="blog-card">
+            <img src="img/card/images/Rectangle 11.png" alt="room"><br>
+            <span class="content-price">6 900 грн.</span>
+            <img src="img/card/Group 3.svg" alt="check"><br>
+            <span class="content-info">2 комн.  •  30 кв. метров</span><br>
+            <img src="img/Rectangle 430.svg" alt="•">
+            <span class="content-metro">Политехнический институт</span>
+          </div>
+          <div class="blog-card">
+            <img src="img/card/images/Rectangle 11.png" alt="room"><br>
+            <span class="content-price">9 000 грн.</span>
+            <img src="img/card/Group 3.svg" alt="check"><br>
+            <span class="content-info">2 комн.  •  30 кв. метров</span><br>
+            <img src="img/Rectangle 430.svg" alt="•">
+            <span class="content-metro">Политехнический институт</span>
+    </div>
+      </div>
+      <a href="template/second.html" class="to-smth">
+          <span>Смотреть лучшие ценовые предложения</span>
+      </a>
+
+  </section>
+  <section class="content-last blog">
+      <div class="main-text">
+          <h2>Последние обьявления в Киеве</h2><br>
+          <ul class="select-flats">
+            <li><a href="" class="flats_active">Квартиры</a></li>
+            <li><a href=""></a>Дома</li>
+            <li><a href=""></a>Офисы</li>
+          </ul>
+
+      </div>
+      <div class="blog-cards">
+          <div class="blog-card">
+            <img src="img/room1.png" alt="room"><br>
+             <span class="content-price">11 800 грн.</span>
+             <img src="img/card/Group 3.svg" alt="check"><br>
+             <span class="content-info">2 комн.  •  48 кв. метров</span><br>
+             <img src="img/Rectangle 430.svg" alt="•">
+             <span class="content-metro">Политехнический институт</span>
+             </div>
+          <div class="blog-card">
             <img src="img/room2.png" alt="room"><br>
-            <span class="prise">15 000 грн.</span>
-            <img src="img/card/Group 3.svg" alt="check">
-            <span class="best-info">3 комн.  •  100 кв. метров</span>
+            <span class="content-price">15 000 грн.</span>
+            <img src="img/card/Group 3.svg" alt="check"><br>
+            <span class="content-info">3 комн.  •  100 кв. метров</span><br>
             <img src="img/Rectangle 430.svg" alt="•">
-            <span class="best-metro">Шулявская</span>
-        </div>
-        <div class="best-card">
+            <span class="content-metro">Шулявская</span>
+          </div>
+          <div class="blog-card">
             <img src="img/room3.png" alt="room"><br>
-            <span class="prise">11 800 грн.</span>
-            <img src="img/card/Group 3.svg" alt="check">
-            <span class="best-info">1 комн.  •  30 кв. метров</span>
+            <span class="content-price">11 800 грн.</span>
+            <img src="img/card/Group 3.svg" alt="check"><br>
+            <span class="content-info">1 комн.  •  30 кв. метров</span><br>
             <img src="img/Rectangle 431.svg" alt="•">
-            <span class="best-metro">Контрактовая площадь</span>
+            <span class="content-metro">Контрактовая площадь</span>
         </div>
-        <div class="best-card">
+          <div class="blog-card">
             <img src="img/room4.png" alt="room"><br>
-            <span class="prise">7 000 грн.</span>
-            <img src="img/card/Group 3.svg" alt="check">
-            <span class="best-info">2 комн.  •  40 кв. метров</span>
+            <span class="content-price">7 000 грн.</span>
+            <img src="img/card/Group 3.svg" alt="check"><br>
+            <span class="content-info">2 комн.  •  40 кв. метров</span><br>
             <img src="img/Rectangle 430.svg" alt="•">
-            <span class="best-metro">просп. Победы, 18А</span>
+            <span class="content-metro">просп. Победы, 18А</span>
+    </div>
+      </div>
+      <a href="template/second.html" class="to-smth">
+          <span>Смотреть самые свежие объявления</span>
+      </a>
+
+  </section>
+<section class="telegram">
+    <div class="main-text">
+        <h2>Общайтесь в Telegram</h2><br>
+        <span>Не отвлекайтесь больше на формальности.
+            Получайте моментальные уведомления о новых обьявлениях,
+            общайтесь без ограничений.
+        </span>
+    </div>
+    <div class="telegram-change">
+        <a class="change-active" href="#">Поиск недвижимости</a>
+        <a href="#">Общение с клиентами</a>
+    </div>
+    <div class="telegram-merovka">
+        <img src="img/phone.png" alt="">
+        <div class="telegram-bot">
+            <h2><img src="img/telegram.png"><span>Telegram</span></h2><br>
+            <h2>Metrovka Bot</h2>
+            <ol type="1">
+                <li>1. Собирайте аналитику по объектам</li>
+                <li>2. Получайте подсказки по эффективному продвижению объявлений</li>
+                <li>3. Общайтесь с клиентами через специальный канал телекоммуникации</li>
+            </ol>
+            <a href="#" class="primary btn-large">
+                Присоединиться в Telegram
+            </a>
         </div>
     </div>
-    <a href="#" class="to-smt">
-        Смотреть лучшие ценовые предложения
-    </a>
-
-      </div>
-      <div class="content-telegram">
-
-      </div>
-      <div class="content-blog">
-
-      </div>
-
-
-
-
-
+    <div class="dots">
+        <span class="dot dot-active"></span>
+        <span class="dot"></span>
     </div>
- </div>
+</section>
+ <section class="blog">
+     <div class="main-text">
+         <h2>Блог Metrovka</h2><br>
+         <span>Хитрости, приемы, советы, фото и видео –
+             все о том как продать,
+             купить, сдать в аренду или арендовать недвижимость.
+        </span>
+     </div>
+     <div class="blog-cards">
+         <div class="blog-card">
+             <img src="img/life.png" alt=""><br>
+             <span class="blog-type"><a href="#">Лайфхак</a></span><br>
+             <h3><a href="#">Киевляне могут оплатить коммуналку через Facebook…</a></h3><br>
+             <span class="blog-author">Татьяна Малыняк  •  5 мин чтения</span>
+         </div>
+         <div class="blog-card">
+             <img src="img/advise.png" alt=""><br>
+             <span class="blog-type"><a href="#">Совет Metrovka</a> </span><br>
+             <h3><a href="#">ТОП-5 самых дешевых квартир Киева</a></h3><br>
+             <span class="blog-author">Татьяна Малыняк  •  4 мин чтения</span>
+         </div>
+         <div class="blog-card">
+             <img src="img/technology.png" alt=""><br>
+             <span class="blog-type"><a href="#">Технологии</a></span><br>
+             <h3><a href="#">Смарт квартиры: цены, предложения и законность</a></h3><br>
+             <span class="blog-author">Татьяна Малыняк  •  2 мин чтения</span>
+         </div>
+     </div>
+     <a href="template/second.html" class="to-smth">
+         <span>Перейти на страницу блога</span>
+     </a>
 
-<footer class="footer">
-  <div class="footer-content">
-    <div class="footer-info">
-      <span class="footer-info-head">Metrovka</span>
-      <ul class="footer-info-list">
-        <li><a href="#">О компании</a></li>
-        <li><a href="#">Пресса о нас</a></li>
-        <li><a href="#">Пользовательское соглашение</a></li>
-        <li><a href="#">Карта сайта</a></li>
-        <li><a href="#">Помощь</a></li>
-      </ul>
+ </section>
 
-    </div>
-    <div class="footer-partner">
-      <span class="footer-info-head">Партнёрство</span>
-      <ul class="footer-info-list">
-        <li><a href="#">Как разместить обьявление</a></li>
-        <li><a href="#">Инструменты продвижения</a></li>
-        <li><a href="#">Правила заполнения объявлений</a></li>
-      </ul>
+ <footer class="footer">
+   <div class="footer-content">
+     <div class="footer-info">
+       <span class="footer-info-head">Metrovka</span>
+       <ul class="footer-info-list">
+         <li><a href="#">О компании</a></li>
+         <li><a href="#">Пресса о нас</a></li>
+         <li><a href="#">Пользовательское соглашение</a></li>
+         <li><a href="#">Карта сайта</a></li>
+         <li><a href="#">Помощь</a></li>
+       </ul>
 
-
-    </div>
-    <div class="footer-more">
-      <span class="footer-info-head">Узнайте больше</span>
-      <ul class="footer-info-list">
-        <li><a href="#">Бонусная программа Bonus+</a></li>
-        <li><a href="#">Telegram Metrovka Bot</a></li>
-        <li><a href="#">Как работает поиск</a></li>
-        <li><a href="#">Как пользоваться избранным</a></li>
-      </ul>
+     </div>
+     <div class="footer-partner">
+       <span class="footer-info-head">Партнёрство</span>
+       <ul class="footer-info-list">
+         <li><a href="#">Как разместить обьявление</a></li>
+         <li><a href="#">Инструменты продвижения</a></li>
+         <li><a href="#">Правила заполнения объявлений</a></li>
+       </ul>
 
 
-    </div>
-    <div class="footer-contacts">
-      <span class="footer-info-head">Контакты</span>
-      <div class="contacts-logos"></div>
-      <span class="footer-info-list">ул. Жилянская, 37</span> <br>
-      <span class="footer-info-adress">Киев, 01033</span>
-      <a href="mailto:info@metrovka.ua" class="footer-info-list">info@metrovka.ua</a>
-      <a href="#" class="primary application">Отправить заявку</a>
-    </div>
+     </div>
+     <div class="footer-more">
+       <span class="footer-info-head">Узнайте больше</span>
+       <ul class="footer-info-list">
+         <li><a href="#">Бонусная программа Bonus+</a></li>
+         <li><a href="#">Telegram Metrovka Bot</a></li>
+         <li><a href="#">Как работает поиск</a></li>
+         <li><a href="#">Как пользоваться избранным</a></li>
+       </ul>
 
-  </div>
-  <a href="index.html"><img src="img/logo-grey.svg" alt="Logo" class="image-logo"></a>
 
-</footer>
-<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+     </div>
+     <div class="footer-contacts">
+       <span class="footer-info-head">Контакты</span>
+       <div class="contacts-logos"></div>
+       <span class="footer-info-list">ул. Жилянская, 37</span> <br>
+       <span class="footer-info-adress">Киев, 01033</span>
+       <a href="mailto:info@metrovka.ua" class="footer-info-list">info@metrovka.ua</a>
+       <a href="#" class="primary application">Отправить заявку</a>
+     </div>
+
+   </div>
+   <a href="index.html"><img src="img/logo-grey.svg" alt="Logo" class="image-logo"></a>
+
+ </footer>
+</div>
 </body>
 </html>

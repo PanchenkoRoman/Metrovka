@@ -1,0 +1,75 @@
+.header {
+    background-color: #30AE63;
+    background: #30AE63 url('../img/Group 25.png') 0 0 no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+
+.header-content {
+  min-height: 301px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+
+}
+.navigation {
+  font-size: 14px;
+  line-height: 20px;
+  padding-top: 18px;
+  display: flex;
+  justify-content: space-between;
+
+}
+.header-menu{
+  padding-top: 10px;
+
+}
+.header-ul {
+  display: flex;
+  flex-direction: row;
+
+  li {
+    margin-right: 40px;
+ }
+ li:last-child {
+   margin-right: 0px;
+ }
+}
+
+.menu-active {
+  border-bottom: 2px #fff solid ;
+  padding:0px 6px 9px 6px;
+
+}
+.header-login {
+  // max-width: 298px;
+  flex-direction: row;
+
+}
+
+.header-h1 {
+  margin: 13px 0px 0px 0px;
+  letter-spacing: -0.6px;
+}
+.header-search {
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+     padding: 0px 0px 37px 0px;
+}
+.header_search span {
+  font-size: 14px;
+  line-height: 17.09px;
+}
+.select, .header-checkbox{
+  display: flex;
+  flex-direction: column;
+  margin-right: 39px;
+}
+.select-span {
+  margin-bottom: 8px;
+}
+.search {
+  padding: 39px 0px 0px 16px;
+}
