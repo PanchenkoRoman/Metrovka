@@ -1,0 +1,72 @@
+@mixin text-mixin($color,$font-size,$line-height) {
+
+  color: $color;
+  font-size: $font-size;
+  line-height: $line-height;
+
+}
+.content-near-metro {
+  margin-top: 20px;
+  background: #fff url('../img/illustration/metro.png') 93% 50% no-repeat ;
+}
+.select-type {
+  max-width: 320px;
+  margin-left: 40px;
+  padding-top: 20px;
+  padding-bottom: 42px;
+
+
+}
+.select-flats {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  li {
+    margin-right: 42px;
+  }
+  .flats_active {
+    border-bottom: 2px #30AE63 solid ;
+    padding:0px 6px 9px 6px;
+
+  }
+}
+.near-metro-flats {
+  margin-top: 0px;
+  margin-bottom: 31px;
+  li:first-child {
+    margin-left: -38px;
+  }
+
+}
+
+.select-form {
+  width: 344px;
+  height: 40px;
+  border-radius: 2px;
+  border: 2px solid #DFE3E6;
+  padding-left: 12px;
+  padding-top: 3px;
+
+}
+
+option {
+  @include text-mixin(#152935,14px,18px);
+}
+
+.select-metro {
+  width: 315px;
+  font-size: 12px;
+  line-height: 16px;
+  margin-bottom: 2px;
+}
+
+.content-prise {
+@include text-mixin(#152935,16px,24px);
+
+}
+.content-info {
+@include text-mixin(#8C9BA5,11px,28px);
+}
+.content-metro {
+@include text-mixin(#152935,14px,18px);
+}

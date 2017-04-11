@@ -1,0 +1,36 @@
+.footer {
+ display: flex;
+ max-width: 844px;
+ width: 100%;
+ margin: 0px auto;
+ flex-direction: column;
+ align-content: space-between;
+ ul {
+   flex-direction: column;
+ }
+}
+
+.footer-content {
+display: flex;
+flex-direction: row;
+ justify-content: space-between;
+ color: #152935;
+
+}
+.footer-info, .footer-partner, .footer-more, .footer-contacts {
+  flex-direction: column;
+  max-width: 162px;
+
+}
+.footer-info-head {
+  font-size: 16px;
+  line-height: 32px;
+}
+.footer-info-list a {
+  font-size: 13px;
+  line-height: 20px;
+}
+.image-logo {
+  display: block;
+  margin: 0 auto;
+}

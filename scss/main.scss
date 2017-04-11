@@ -1,0 +1,55 @@
+$font: Roboto;
+$prymary-color: #30AE63;
+$prymary-color-hover: #50DB88;
+$blue: #2573D8;
+html {
+  box-sizing: border-box;
+  font-family: $font;
+  color: #152935;
+  font-size: 14px;
+}
+body{
+  background: rgba(90, 104, 114, 0.08);
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+a{
+  color: inherit;
+  text-decoration: none;
+}
+h1
+{
+  font: 32px $font;
+  display: inline-block;
+}
+h2{
+  font: 24px $font ;
+  display: inline-block;
+  padding: 24px 0;
+}
+span{
+  font-family: $font;
+  line-height: 20px;
+}
+.clearfix:after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.container{
+  margin: 0 auto;
+}
+.container-main{
+  margin: 0 auto;
+  max-width: 890px;
+}
+
+@import 'telegram';
+@import 'blog';
+@import "buttons";
+@import "content";
+@import "header";
+@import "checkbox";
+@import "footer";
