@@ -20,16 +20,50 @@
           <li class="menu-hidden"><a href="">Посуточно</a></li>
           <li class="menu-hidden"><a href="">• • •  Еще</a></li>
         </ul>
-
-
       </div>
       <div class="header-login">
 
-        <button class="header-insert"><a href="index.html">Разместить объявление</a></button>
+        <button id="modalBtn" class="header-insert"><a href="#">Разместить объявление</a></button>
+          <div id="modal" class="modal">
+              <div class="modal-content">
+                  <div class="modal-text">
+                      <h2>Оставить заявку</h2><br>
+                      <span>Нет времени искать по сайту? Заполняй критерии поиска и получай акутальные объявления как только они появляются на Metrovka.</span>
+                  </div>
+                  <div class="modal-form">
+                      <form action="post">
+                      <ul class="select-flats near-metro-flats">
+                          <li><a href="" class="flats_active">Район</a></li>
+                          <li><a href=""></a>Метро</li>
+                      </ul>
+                      <select name="select-metro" class="select-form select-metro">
+                          <option value="Голосеевский" selected><span class="metro">Голосеевский</span></option>
+                          <option value="Соломенский">Соломенский</option>
+                      </select>
+                          <div class="header-checkbox">
+                              <span>Кол-во комнат</span>
+                              <div class="checkbox">
+                                  <input type="checkbox" name="checkbox1" id="checkbox-check1" checked>
+                                  <label for="checkbox-check1" class="checkboxs"><span>1</span></label>
+                                  <input type="checkbox" name="checkbox2" id="checkbox-check2" checked>
+                                  <label for="checkbox-check2" class="checkboxs"><span>2</span></label>
+                                  <input type="checkbox" name="checkbox3" id="checkbox-check3">
+                                  <label for="checkbox-check3" class="checkboxs"><span>3</span></label>
+                                  <input type="checkbox" name="checkbox4" id="checkbox-check4">
+                                  <label for="checkbox-check4"class="checkboxs"><span>4</span></label>
+                                  <input type="checkbox" name="checkbox5" id="checkbox-check5">
+                                  <label for="checkbox-check5"><span>5+</span></label>
+                              </div>
+                          </div>
+                          <input class="modal-input modal-input-first" type="text" placeholder="Как вас зовут?" required>
+                          <input class="modal-input modal-input-second" type="email" placeholder="Email" required>
+                      <input type="submit" class="primary btn-large" value="Оставить заявку">
+                      </form>
+                  </div>
+              </div>
+          </div>
 
         <a href="index.html" class="header-login-href">Войти</a>
-
-
       </div>
 
     </div>
@@ -41,7 +75,6 @@
           <option value="Киев" selected>Киев</option>
           <option value="Львов">Львов</option>
         </select>
-
       </div>
       <div class="header-checkbox">
         <span>Кол-во комнат</span>
@@ -61,19 +94,14 @@
       </div>
       <div class="search">
         <a href="#" class="search-button">Перейти к поиску</a>
-
       </div>
-
     </div>
   </div>
-
 </header>
 <div class="container-main">
   <section class="content-near-metro blog">
-
       <div class="select-type">
       <h2>Недвижимость возле метро</h2>
-
         <ul class="select-flats near-metro-flats">
           <li><a href="" class="flats_active">Квартиры</a></li>
           <li><a href=""></a>Дома</li>
@@ -86,14 +114,11 @@
         <a href="#" class="primary btn-large">
             Показать результаты поиска
         </a>
-
       </div>
-
   </section>
   <section class="content-best blog">
       <div class="main-text">
           <h2>Лучшие предложения в Киеве</h2><br>
-
       </div>
       <div class="blog-cards">
           <div class="blog-card">
@@ -132,7 +157,6 @@
       <a href="template/second.html" class="to-smth">
           <span>Смотреть лучшие ценовые предложения</span>
       </a>
-
   </section>
   <section class="content-last blog">
       <div class="main-text">
@@ -142,7 +166,6 @@
             <li><a href=""></a>Дома</li>
             <li><a href=""></a>Офисы</li>
           </ul>
-
       </div>
       <div class="blog-cards">
           <div class="blog-card">
@@ -181,7 +204,6 @@
       <a href="template/second.html" class="to-smth">
           <span>Смотреть самые свежие объявления</span>
       </a>
-
   </section>
 <section class="telegram">
     <div class="main-text">
@@ -246,9 +268,7 @@
      <a href="template/second.html" class="to-smth">
          <span>Перейти на страницу блога</span>
      </a>
-
  </section>
-
  <footer class="footer">
    <div class="footer-content">
      <div class="footer-info">
@@ -269,8 +289,6 @@
          <li><a href="#">Инструменты продвижения</a></li>
          <li><a href="#">Правила заполнения объявлений</a></li>
        </ul>
-
-
      </div>
      <div class="footer-more">
        <span class="footer-info-head">Узнайте больше</span>
@@ -280,8 +298,6 @@
          <li><a href="#">Как работает поиск</a></li>
          <li><a href="#">Как пользоваться избранным</a></li>
        </ul>
-
-
      </div>
      <div class="footer-contacts">
        <span class="footer-info-head">Контакты</span>
@@ -291,11 +307,10 @@
        <a href="mailto:info@metrovka.ua" class="footer-info-list">info@metrovka.ua</a>
        <a href="#" class="primary application">Отправить заявку</a>
      </div>
-
    </div>
    <a href="index.html"><img src="img/logo-grey.svg" alt="Logo" class="image-logo"></a>
-
  </footer>
 </div>
+<script src="js/main.js" ></script>
 </body>
 </html>
