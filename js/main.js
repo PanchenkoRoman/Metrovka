@@ -27,3 +27,7 @@ window.onload = function () {
 
 }
 
+$(function(){
+    $('#menu').slicknav();
+});
+

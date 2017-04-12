@@ -17,3 +17,44 @@
     width: 96%; }
   .close:after {
     left: 305px; } }
+
+@media screen and (max-width: 768px) and (min-width: 481px) {
+  .container-main {
+    margin: 0 10px; }
+  .header {
+    padding: 0 10px; }
+  .select {
+    width: 30.46944%; }
+  .select-form {
+    width: 100%; }
+  .select-type {
+    float: none;
+    margin: 0 auto; }
+  .resp-img-big {
+    background-size: 90%;
+    width: 100%;
+    float: none; }
+  .search {
+    padding-left: 0px; }
+  .header-ul li {
+    margin-right: 20px; }
+  .modal-content {
+    width: 96%; }
+  .close:after {
+    left: 305px; }
+  .phone, .menu-hidden {
+    display: none; }
+  .footer-content {
+    flex-wrap: wrap; }
+  .footer-info {
+    padding-bottom: 30px; }
+  .footer {
+    margin-top: 25px; }
+  .blog-card {
+    width: 320px; }
+  .blog-card h3 {
+    max-width: 282px; }
+  .content-best .blog-card {
+    width: 46%; }
+  .content-last .blog-card {
+    width: 46%; } }
