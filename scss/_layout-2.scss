@@ -1,0 +1,36 @@
+.places{
+  display: flex;
+  justify-content: center;
+}
+.description-cards {
+  max-width: 890px;
+  padding-top: 20px;
+  span {
+    color: #2573D8;
+  }
+}
+.map{
+  width: 32%;
+  margin-top: 157px;
+  padding-left: 20px;
+}
+#sort{
+  margin-right: 30px;
+}
+
+.places-variant{
+  span{
+  color: #8C9BA5;
+  float: left;
+  }
+  select{
+    color: #8C9BA5;
+    background: rgba(90, 104, 114, 0);
+    border:none;
+    float: right;
+  }select:focus{
+    border: none;
+    outline: none;
+     }
+}
+
