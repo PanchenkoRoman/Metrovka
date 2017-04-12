@@ -8,8 +8,62 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 </head>
 <body>
-<header>
-
+<header class="header header-second">
+    <div class="header-content">
+        <div class="navigation">
+            <div class="header-menu">
+                <ul class="header-ul">
+                    <li><a href="../index.html"><img src="../img/logo.svg" alt="logo"></a></li>
+                    <li><a href="template/second.html" class="menu-active">Аренда</a></li>
+                    <li class="menu-hidden"><a href="">Продажа</a></li>
+                    <li class="menu-hidden"><a href="">Посуточно</a></li>
+                    <li class="menu-hidden"><a href="">• • •  Еще</a></li>
+                </ul>
+            </div>
+            <div class="header-login">
+                <button id="modalBtn" class="header-insert"><a href="#">Разместить объявление</a></button>
+                <div id="modal" class="modal">
+                    <div class="modal-content">
+                        <div class="modal-text">
+                            <h2>Оставить заявку</h2><br>
+                            <span>Нет времени искать по сайту? Заполняй критерии поиска и получай акутальные объявления как только они появляются на Metrovka.</span>
+                        </div>
+                        <div class="modal-form">
+                            <p id="close" class="close"></p>
+                            <form action="post">
+                                <ul class="select-flats near-metro-flats">
+                                    <li><a href="" class="flats_active">Район</a></li>
+                                    <li><a href=""></a>Метро</li>
+                                </ul>
+                                <select name="select-metro" class="select-form select-metro">
+                                    <option value="Голосеевский" selected><span class="metro">Голосеевский</span></option>
+                                    <option value="Соломенский">Соломенский</option>
+                                </select>
+                                <div class="header-checkbox">
+                                    <span>Кол-во комнат</span>
+                                    <div class="checkbox">
+                                        <input type="checkbox" name="checkbox1" id="checkbox-check1" checked>
+                                        <label for="checkbox-check1" class="checkboxs"><span>1</span></label>
+                                        <input type="checkbox" name="checkbox2" id="checkbox-check2" checked>
+                                        <label for="checkbox-check2" class="checkboxs"><span>2</span></label>
+                                        <input type="checkbox" name="checkbox3" id="checkbox-check3">
+                                        <label for="checkbox-check3" class="checkboxs"><span>3</span></label>
+                                        <input type="checkbox" name="checkbox4" id="checkbox-check4">
+                                        <label for="checkbox-check4"class="checkboxs"><span>4</span></label>
+                                        <input type="checkbox" name="checkbox5" id="checkbox-check5">
+                                        <label for="checkbox-check5"><span>5+</span></label>
+                                    </div>
+                                </div>
+                                <input class="modal-input modal-input-first" type="text" placeholder="Как вас зовут?" required>
+                                <input class="modal-input modal-input-second" type="email" placeholder="Email" required>
+                                <input type="submit" class="primary btn-large" value="Оставить заявку">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <a href="index.html" class="header-login-href">Войти</a>
+            </div>
+        </div>
 </header>
 <div class="container">
     <div class="places">
@@ -133,6 +187,6 @@
 <footer>
 
 </footer>
-
+<script src="../js/main.js" ></script>
 </body>
 </html>

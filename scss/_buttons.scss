@@ -21,6 +21,10 @@
      }
 }
 
+.primary-disabled{
+  opacity: 0.5;
+}
+
 
 .to-smth{
   display: block;
@@ -86,6 +90,7 @@
   border-radius: 3px;
 }
 .header-insert {
+  cursor: pointer;
   text-align: center;
   border: none;
   text-decoration: none;
@@ -118,3 +123,18 @@
   line-height: 18px;
   font-size: 14px;
 }
+
+  .disabled {
+    opacity: 1.00;
+    border: 2px solid #30AE63;
+    color: #30AE63;
+    background-color: white;
+    cursor: pointer;
+    text-align: center;
+    width: 236px;
+    height: 40px;
+    line-height: 17.09px;
+    font-size: 14px;
+    padding: 0px 0px 0px 11px;
+  }
+

@@ -18,6 +18,10 @@
   margin-right: 30px;
 }
 
+.description-cards-footer{
+  padding-left: 20px;
+}
+
 .places-variant{
   span{
   color: #8C9BA5;
@@ -33,4 +37,29 @@
     outline: none;
      }
 }
+
+.header-second{
+  height: 80px;
+  display: flex;
+  padding-left: 20px;
+  .navigation{
+    display: block;
+    float: left;
+  }
+  .header-content{
+    min-height: 0px;
+    width: 100%;
+  }
+  .header-login{
+    float: left;
+    margin-left: 10%;
+  }
+  .header-menu{
+    float: left;
+  }
+}
+
+
+
+
 

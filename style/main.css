@@ -199,6 +199,9 @@ span {
   .primary:visited {
     opacity: 0.5; }
 
+.primary-disabled {
+  opacity: 0.5; }
+
 .to-smth {
   display: block;
   background: #FFFFFF;
@@ -255,6 +258,7 @@ span {
   border-radius: 3px; }
 
 .header-insert {
+  cursor: pointer;
   text-align: center;
   border: none;
   text-decoration: none;
@@ -286,6 +290,19 @@ span {
   display: block;
   line-height: 18px;
   font-size: 14px; }
+
+.disabled {
+  opacity: 1.00;
+  border: 2px solid #30AE63;
+  color: #30AE63;
+  background-color: white;
+  cursor: pointer;
+  text-align: center;
+  width: 236px;
+  height: 40px;
+  line-height: 17.09px;
+  font-size: 14px;
+  padding: 0px 0px 0px 11px; }
 
 .content-near-metro {
   margin-top: 20px;
@@ -489,7 +506,7 @@ input[type="checkbox"]:checked + label span {
   padding: 30px 40px;
   width: 50%;
   float: left;
-  height: 471px; }
+  height: 486px; }
   .modal-text span {
     max-width: 265px;
     display: inline-block; }
@@ -625,6 +642,14 @@ input[type='submit'] {
 .home-dot {
   background-color: #979797; }
 
+.close:after {
+  content: '\2716';
+  position: relative;
+  color: #8C9BA5;
+  left: 335px;
+  cursor: pointer;
+  bottom: 25px; }
+
 .places {
   display: flex;
   justify-content: center; }
@@ -643,6 +668,9 @@ input[type='submit'] {
 #sort {
   margin-right: 30px; }
 
+.description-cards-footer {
+  padding-left: 20px; }
+
 .places-variant span {
   color: #8C9BA5;
   float: left; }
@@ -656,3 +684,19 @@ input[type='submit'] {
 .places-variant select:focus {
   border: none;
   outline: none; }
+
+.header-second {
+  height: 80px;
+  display: flex;
+  padding-left: 20px; }
+  .header-second .navigation {
+    display: block;
+    float: left; }
+  .header-second .header-content {
+    min-height: 0px;
+    width: 100%; }
+  .header-second .header-login {
+    float: left;
+    margin-left: 10%; }
+  .header-second .header-menu {
+    float: left; }

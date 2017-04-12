@@ -106,3 +106,12 @@ color: black;
   @extend .home-dot-active;
   background-color: #979797;
 }
+
+.close:after{
+  content: '\2716';
+  position: relative;
+  color: #8C9BA5;
+  left: 335px;
+  cursor: pointer;
+  bottom: 25px;
+}
