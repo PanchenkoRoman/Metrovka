@@ -24,10 +24,17 @@ window.onload = function () {
     primary2.onclick = function () {
         primary2.classList.add('primary-disabled');
     }
-
+    $(function(){
+        $('.navigation').slicknav({
+            prependTo:'.mobile-menu'
+        });
+    });
+ /*var mobile = document.getElementsByClassName('mobile-menu')[0];
+    var h = document.getElementsByClassName('header-content')[0];
+    mobile.onclick = function () {
+        h.classList.add('blur');
+    }*/
 }
 
-$(function(){
-    $('#menu').slicknav();
-});
+
 

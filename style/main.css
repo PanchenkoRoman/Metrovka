@@ -53,6 +53,15 @@ span {
 .resp-img3-blog {
   background-image: url("../img/technology.png"); }
 
+.slicknav_menu {
+  display: none; }
+
+.hidden {
+  display: none; }
+
+.blur {
+  filter: blur(5px); }
+
 .main-text {
   padding-top: 60px;
   text-align: center;

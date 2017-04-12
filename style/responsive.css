@@ -23,8 +23,12 @@
     margin: 0 10px; }
   .header {
     padding: 0 10px; }
+  h1 {
+    padding: 60px 0 40px; }
+  .header-checkbox {
+    padding-top: 30px; }
   .select {
-    width: 30.46944%; }
+    width: 100%; }
   .select-form {
     width: 100%; }
   .select-type {
@@ -57,4 +61,10 @@
   .content-best .blog-card {
     width: 46%; }
   .content-last .blog-card {
-    width: 46%; } }
+    width: 46%; }
+  .slicknav_menu {
+    display: block; }
+  .mobile-menu .hidden {
+    display: block; }
+  .header-search {
+    display: block; } }

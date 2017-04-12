@@ -39,8 +39,14 @@
   .header{
     padding: 0 10px;
   }
+  h1{
+    padding: 60px 0 40px;
+  }
+  .header-checkbox{
+    padding-top: 30px;
+  }
   .select{
-    width: 344px / 1129px * 100%;
+    width: 100%;
   }
   .select-form{
     width: 100%;
@@ -96,6 +102,17 @@
     .blog-card{
       width: 46%;
     }
+  }
+  .slicknav_menu {
+    display:block;
+  }
+  .mobile-menu{
+    .hidden{
+      display: block;
+    }
+  }
+  .header-search{
+    display: block;
   }
 }
 @media screen and (max-width: 480px) and (min-width: 320px){
