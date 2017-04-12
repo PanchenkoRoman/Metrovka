@@ -65,7 +65,7 @@
 .select, .header-checkbox{
   display: flex;
   flex-direction: column;
-  margin-right: 39px;
+  margin-right: 39px / 1129px *100%;
 }
 .select-span {
   margin-bottom: 8px;
