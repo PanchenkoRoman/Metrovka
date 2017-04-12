@@ -116,13 +116,15 @@
   line-height: 17.09px;
   padding: 8px 40px;
 }
-.application {
-  height: 40px;
-  width:162px;
-  display: block;
-  line-height: 18px;
-  font-size: 14px;
-}
+
+  .application {
+    height: 40px;
+    line-height: 40px;
+    width: 162px;
+    display: block;
+    font-size: 14px;
+  }
+
 
   .disabled {
     opacity: 1.00;

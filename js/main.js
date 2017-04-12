@@ -16,11 +16,13 @@ window.onload = function () {
     }
 
     var primary = document.getElementById('btn-prime');
+    var primary2 = document.getElementById('btn-prime2');
 
-    primary.onclick = function (e) {
-        if (e.target == primary) {
+    primary.onclick = function () {
             primary.classList.add('primary-disabled');
-        }
+    }
+    primary2.onclick = function () {
+        primary2.classList.add('primary-disabled');
     }
 
 }

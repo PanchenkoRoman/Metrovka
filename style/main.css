@@ -286,9 +286,9 @@ span {
 
 .application {
   height: 40px;
+  line-height: 40px;
   width: 162px;
   display: block;
-  line-height: 18px;
   font-size: 14px; }
 
 .disabled {
@@ -456,7 +456,8 @@ input[type="checkbox"]:checked + label span {
   width: 100%;
   margin: 0px auto;
   flex-direction: column;
-  align-content: space-between; }
+  align-content: space-between;
+  margin-top: 50px; }
   .footer ul {
     flex-direction: column; }
 
@@ -481,6 +482,30 @@ input[type="checkbox"]:checked + label span {
 .image-logo {
   display: block;
   margin: 0 auto; }
+
+.footer-info-list li {
+  padding: 13px 0; }
+
+.footer-info-adress {
+  line-height: 27px; }
+
+.footer-info-index {
+  font-size: 12px;
+  line-height: 30px; }
+
+.contacts-logos {
+  padding: 16px 0; }
+
+.fa {
+  margin-right: 14px;
+  color: #8C9BA5; }
+
+.footer-info-mail {
+  padding: 24px 0;
+  display: inline-block; }
+
+.footer-logo {
+  padding-top: 75px; }
 
 .modal {
   display: none;
@@ -700,3 +725,8 @@ input[type='submit'] {
     margin-left: 10%; }
   .header-second .header-menu {
     float: left; }
+
+.footer-2 {
+  display: block;
+  float: left;
+  padding-left: 5%; }
