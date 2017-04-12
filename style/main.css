@@ -39,6 +39,20 @@ span {
   margin: 0 auto;
   max-width: 890px; }
 
+.resp-img-blog, .resp-img2-blog, .resp-img3-blog {
+  display: inline-block;
+  width: 100%;
+  background-image: url("../img/life.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 182px; }
+
+.resp-img2-blog {
+  background-image: url("../img/advise.png"); }
+
+.resp-img3-blog {
+  background-image: url("../img/technology.png"); }
+
 .main-text {
   padding-top: 60px;
   text-align: center;
@@ -110,14 +124,18 @@ span {
   text-align: center; }
 
 .blog-card {
-  max-width: 272px;
+  vertical-align: top;
+  width: 30%;
   display: inline-block;
   text-align: left; }
   .blog-card:nth-child(2) {
     margin: 0 12px; }
   .blog-card h3 {
     font-size: 16px;
-    line-height: 24px; }
+    line-height: 24px;
+    overflow: hidden;
+    display: inline-block;
+    height: 47px; }
   .blog-card:nth-child(2) .blog-type {
     color: #30AE63; }
   .blog-card:last-child .blog-type {
@@ -134,6 +152,33 @@ span {
   color: #8C9BA5;
   font-size: 11px;
   line-height: 28px; }
+
+.content-best .blog-card {
+  width: 22%; }
+
+.content-best .blog-card:nth-child(3) {
+  margin-right: 12px; }
+
+.content-best .resp-img-blog, .content-best .resp-img2-blog, .content-best .resp-img3-blog {
+  background-image: url("../img/room4.png"); }
+
+.content-last .blog-card {
+  width: 22%; }
+
+.content-last .blog-card:nth-child(3) {
+  margin-right: 12px; }
+
+.content-last .content-last-img4 {
+  background-image: url("../img/room4.png"); }
+
+.content-last .content-last-img1 {
+  background-image: url("../img/room1.png"); }
+
+.content-last .content-last-img2 {
+  background-image: url("../img/room2.png"); }
+
+.content-last .content-last-img3 {
+  background-image: url("../img/room3.png"); }
 
 .btn-large {
   height: 40px;

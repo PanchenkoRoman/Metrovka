@@ -11,14 +11,18 @@
   text-align: center;
 }
 .blog-card{
-  max-width: 272px;
+  vertical-align: top;
+  width: 30%;
   display: inline-block;
   text-align: left;
   &:nth-child(2){
     margin: 0 12px;
   }h3{
-    font-size: 16px;
+       font-size: 16px;
        line-height: 24px;
+  overflow: hidden;
+  display: inline-block;
+  height: 47px;
      }&:nth-child(2) .blog-type{
              color: $prymary-color;
            }&:last-child .blog-type{
@@ -38,4 +42,38 @@
   font-size: 11px;
   line-height: 28px;
 }
+
+.content-best{
+  .blog-card{
+    width: 22%;
+  }
+  .blog-card:nth-child(3){
+    margin-right: 12px;
+  }
+  .resp-img-blog{
+    background-image: url("../img/room4.png");
+  }
+}
+
+.content-last{
+  .blog-card{
+    width: 22%;
+  }
+  .blog-card:nth-child(3){
+    margin-right: 12px;
+  }
+  .content-last-img4{
+    background-image: url("../img/room4.png");
+  }
+  .content-last-img1{
+    background-image: url("../img/room1.png");
+  }
+  .content-last-img2{
+    background-image: url("../img/room2.png");
+  }
+  .content-last-img3{
+    background-image: url("../img/room3.png");
+  }
+}
+
 
