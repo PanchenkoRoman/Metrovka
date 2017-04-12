@@ -477,6 +477,7 @@ input[type="checkbox"]:checked + label span {
   background-color: rgba(90, 104, 114, 0.5); }
 
 .modal-content {
+  height: 82%;
   width: 793px;
   background-color: white;
   margin: 5% auto;
