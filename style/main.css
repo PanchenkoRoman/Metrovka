@@ -234,6 +234,7 @@ span {
   width: 148px;
   display: flex;
   align-items: center;
+  border-radius: 5px;
   justify-content: space-around;
   margin: 20px 0;
   line-height: 36px; }
@@ -780,3 +781,6 @@ input[type='submit'] {
   display: block;
   float: left;
   padding-left: 5%; }
+
+.smal-visible, .hiden-xs {
+  display: none; }

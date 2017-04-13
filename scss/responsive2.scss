@@ -138,6 +138,12 @@
     width: 100%;
     flex-direction: column;
   }
+  .logo{
+    left: 10px;
+  }
+  .slicknav_nav ul{
+    top:-17px;
+  }
   .footer-info{
     padding-bottom: 30px;
   }
@@ -183,164 +189,186 @@
     }
     .logo{
       left: -5px;
-      top: -3px;
+      top: -13px;
 
     }
   }
   .header-ul{
-    padding-left: 50px;
+    padding-left: 40px;
   }
 
 }
-@media screen and (max-width: 480px) and (min-width: 320px){
-  body{
-    background: white;
+@media screen and (max-width: 480px) and (min-width: 320px) {
+  .map {
+    display: none;
   }
-  .container-main {
-  margin: 0 10px;
-}
-  .header-menu{
+  .header-menu {
     z-index: 1;
   }
-  h1{
+  h1 {
     padding: 60px 0 40px;
-    font-size: 28px;
   }
   h2{
-    font-size: 21px;
+    font-size: 17px;
+    padding: 15px 0;
   }
-  .near-metro-flats li:first-child{
-    margin-left: 0;
-  }
-  .content-near-metro{
-    display: flex;
-    flex-direction: column-reverse;
-  }
-  .blog{
-    margin-top: 0;
-  }
-  .header-checkbox{
+  .header-checkbox {
     padding-top: 30px;
   }
-  .select{
+  .select {
     width: 310px;
   }
-  .select-form{
-    width: 80%;
+  .home-card-left {
+    flex-direction: column;
+    float: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
-  .select-type{
+  .smal-visible{
+    display: block;
+  }
+  .places-variant{
+    display: grid;
+  }
+  .places-variant select{
+    float: none;
+  }
+  .home-img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .duble {
+    justify-content: flex-end;
+  }
+  .price-btn {
+    margin: 0;
+    position: relative;
+    top: 35px;
+  }
+  .tel {
+    margin-right: 20px;
+  }
+  .home-card-right {
+    float: none;
+    text-align: left;
+    margin-top: 0;
+    padding-left: 0;
+  }
+  .hiden-lg{
+    display: none;
+  }
+  .hiden-xs{
+    display: block;
+  }
+  .select-form {
+    width: 100%;
+  }
+  .select-type {
     float: none;
     margin: 0 auto;
-    text-align: center;
   }
-  .btn-large{
-    width: 92%;
-    display: inline-block;
-  }
-  .resp-img-big{
-    background-size: 95%;
+  .resp-img-big {
+    background-size: 90%;
     width: 100%;
     float: none;
-    height: 157px;
   }
-  .search{
+  .search {
     padding-left: 0px;
   }
-  .header-ul{
-    li{
+  .header-ul {
+    li {
       margin-right: 20px;
     }
   }
-  .modal-content{
+  .modal-content {
     width: 96%;
   }
-  .close:after{
+  .close:after {
     left: 305px;
   }
-  .phone, .menu-hidden{
+  .phone, .menu-hidden {
     display: none;
   }
-  .footer-content{
-    flex-wrap: wrap;
+  .footer-content {
+    flex-direction: column;
     justify-content: center;
-    text-align: center;
     align-items: center;
+    text-align: center;
   }
-  .footer-info{
+  .home {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+  }
+  .logo {
+    left: 10px;
+  }
+  .slicknav_nav ul {
+    top: -17px;
+  }
+  .footer-info {
     padding-bottom: 30px;
   }
-  .footer{
-    margin-top: 25px;
+  .home h3{
+    margin-top: 20px;
+    display: inline-block;
+    margin-right: 20px;
   }
-  .blog-card{
-    width: 100%;
+  .footer {
+    margin-top: 0;
   }
-  .blog-card h3{
+  .footer-info-head {
+    display: block;
+    padding-top: 30px;
+  }
+  .price-btn{
+    width: 128px;
+  }
+  .blog-card {
+    width: 320px;
+  }
+  .blog-card h3 {
     max-width: 282px;
   }
-  .content-best{
-    .blog-card{
-      width: 45%;
-    }
-    .resp-img-blog{
-      height: 100px;
+  .content-best {
+    .blog-card {
+      width: 46%;
     }
   }
-  .to-smth{
-    font-size: 14px;
-  }
-  .content-last{
-    .blog-card{
-      width: 45%;
+  .content-last {
+    .blog-card {
+      width: 46%;
     }
-    .resp-img-blog{
-      height: 100px;
-    }
-  }
-  .telegram-bot{
-    padding: 0;
-  }
-  .telegram-change a{
-    font-size: 12px;
-    margin-right: 14px;
-  }
-  .blog-card:nth-child(2){
-    margin: 0;
-  }
-  .blog-card{
-    &:last-child{
-      display: none;
-    }&:nth-child(3){
-    display: none;
-         }
   }
   .slicknav_menu {
-    display:block;
+    display: block;
   }
-  .mobile-menu{
-    .hidden{
+  .mobile-menu {
+    .hidden {
       display: block;
     }
   }
-  .header-search{
+  .header-search {
     display: block;
   }
 
-  .slicknav_menu{
-    .header-menu{
+  .slicknav_menu {
+    .header-menu {
       display: flex;
       justify-content: center;
       align-items: center;
-      li{
+      li {
         margin-top: 14px;
       }
     }
-    .logo{
+    .logo {
       left: -5px;
-      top: -3px;
+      top: -13px;
+
     }
   }
-  .header-ul{
-    padding-left: 50px;
+  .header-ul {
+    padding-left: 40px;
   }
 }
