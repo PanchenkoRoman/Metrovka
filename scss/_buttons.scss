@@ -14,6 +14,9 @@
   line-height: 40px;
   letter-spacing: 0.02px;
   color: #FFFFFF;
+  transition-property: background;
+  transition-timing-function: linear;
+  transition-duration: 0.2s;
   &:hover{
     background: $prymary-color-hover;
   }&:visited{

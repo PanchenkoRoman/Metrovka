@@ -28,6 +28,7 @@
 .header-ul {
   display: flex;
   flex-direction: row;
+  padding-left: 10%;
 
   li {
     margin-right: 40px;
@@ -37,11 +38,31 @@
  }
 }
 
-.menu-active {
+/*.menu-active {
   border-bottom: 2px #fff solid ;
   padding:0px 6px 9px 6px;
 
+}*/
+
+.header-ul{
+  a{
+    border-bottom: 2px rgba(0,0,0,0) solid;
+    padding: 0px 6px 9px 6px;
+  }a:hover{
+       border-bottom: 2px #fff solid ;
+     }
+  button{
+    a{
+      border: none;
+    }
+    a:hover{
+      border: none;
+    }
+  }
 }
+
+
+
 .header-login {
   // max-width: 298px;
   flex-direction: row;
@@ -72,4 +93,9 @@
 }
 .search {
   padding: 39px 0px 0px 16px;
+}
+.logo{
+  position: absolute;
+  cursor: pointer;
+  top:20px;
 }

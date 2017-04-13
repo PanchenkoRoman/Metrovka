@@ -55,7 +55,10 @@
 .slicknav_nav {
   clear: both; }
   .slicknav_nav ul {
-    display: block; }
+    display: block;
+    position: absolute;
+    left: 30px;
+    top: -7px;}
   .slicknav_nav li {
     display: block; }
   .slicknav_nav .slicknav_arrow {
@@ -133,9 +136,9 @@
     .slicknav_nav a:hover {
       -webkit-border-radius: 6px;
       -moz-border-radius: 6px;
-      border-radius: 6px;
-      background: #ccc;
-      color: #222; }
+      border-radius: 1px;
+     /* border-bottom: 2px #fff solid;
+      padding: 0px 6px 9px 6px; */}
   .slicknav_nav .slicknav_txtnode {
     margin-left: 15px; }
   .slicknav_nav .slicknav_item a {

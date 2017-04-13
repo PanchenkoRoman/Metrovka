@@ -60,7 +60,8 @@ span {
   display: none; }
 
 .blur {
-  filter: blur(5px); }
+  background: rgba(90, 104, 114, 0.5);
+  filter: blur(16px); }
 
 .main-text {
   padding-top: 60px;
@@ -202,7 +203,10 @@ span {
   border-radius: 2px;
   line-height: 40px;
   letter-spacing: 0.02px;
-  color: #FFFFFF; }
+  color: #FFFFFF;
+  transition-property: background;
+  transition-timing-function: linear;
+  transition-duration: 0.2s; }
   .primary:hover {
     background: #50DB88; }
   .primary:visited {
@@ -405,15 +409,30 @@ option {
 
 .header-ul {
   display: flex;
-  flex-direction: row; }
+  flex-direction: row;
+  padding-left: 10%; }
   .header-ul li {
     margin-right: 40px; }
   .header-ul li:last-child {
     margin-right: 0px; }
 
-.menu-active {
-  border-bottom: 2px #fff solid;
+/*.menu-active {
+  border-bottom: 2px #fff solid ;
+  padding:0px 6px 9px 6px;
+
+}*/
+.header-ul a {
+  border-bottom: 2px transparent solid;
   padding: 0px 6px 9px 6px; }
+
+.header-ul a:hover {
+  border-bottom: 2px #fff solid; }
+
+.header-ul button a {
+  border: none; }
+
+.header-ul button a:hover {
+  border: none; }
 
 .header-login {
   flex-direction: row; }
@@ -442,6 +461,11 @@ option {
 
 .search {
   padding: 39px 0px 0px 16px; }
+
+.logo {
+  position: absolute;
+  cursor: pointer;
+  top: 20px; }
 
 .checkbox {
   display: flex;

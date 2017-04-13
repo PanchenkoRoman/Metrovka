@@ -69,7 +69,8 @@ span{
   display: none;
 }
 .blur{
-  filter: blur(5px);
+  background: rgba(90, 104, 114, 0.5);
+  filter: blur(16px);
 }
 @import 'telegram';
 @import 'blog';

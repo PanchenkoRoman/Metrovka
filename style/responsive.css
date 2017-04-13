@@ -21,14 +21,14 @@
 @media screen and (max-width: 768px) and (min-width: 481px) {
   .container-main {
     margin: 0 10px; }
-  .header {
-    padding: 0 10px; }
+  .header-menu {
+    z-index: 1; }
   h1 {
     padding: 60px 0 40px; }
   .header-checkbox {
     padding-top: 30px; }
   .select {
-    width: 100%; }
+    width: 310px; }
   .select-form {
     width: 100%; }
   .select-type {
@@ -67,4 +67,15 @@
   .mobile-menu .hidden {
     display: block; }
   .header-search {
-    display: block; } }
+    display: block; }
+  .slicknav_menu .header-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .slicknav_menu .header-menu li {
+      margin-top: 14px; }
+  .slicknav_menu .logo {
+    left: -5px;
+    top: -3px; }
+  .header-ul {
+    padding-left: 50px; } }
