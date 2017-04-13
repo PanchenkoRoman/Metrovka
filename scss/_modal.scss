@@ -47,9 +47,15 @@
     border-radius: 50%;
   }
   input[type="checkbox"]:checked + label span{
+    display:inline-block;
+    width:42px;
+    height:42px;
+    text-align: center;
+    padding-top: 12px;
     background: $prymary-color 50% no-repeat;
     border-radius: 50%;
     color: white;
+    cursor:pointer;
   }
   input[type="checkbox"]:checked + label{
     border: 2px solid $prymary-color;

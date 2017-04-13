@@ -590,9 +590,15 @@ input[type="checkbox"]:checked + label span {
     border: 2px solid #DFE3E6;
     border-radius: 50%; }
   .modal-form input[type="checkbox"]:checked + label span {
+    display: inline-block;
+    width: 42px;
+    height: 42px;
+    text-align: center;
+    padding-top: 12px;
     background: #30AE63 50% no-repeat;
     border-radius: 50%;
-    color: white; }
+    color: white;
+    cursor: pointer; }
   .modal-form input[type="checkbox"]:checked + label {
     border: 2px solid #30AE63;
     background: #30AE63; }
