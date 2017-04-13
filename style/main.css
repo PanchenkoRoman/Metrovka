@@ -423,7 +423,7 @@ option {
 }*/
 .header-ul a {
   border-bottom: 2px transparent solid;
-  padding: 0px 6px 9px 6px; }
+  padding: 0px 5px 9px 5px; }
 
 .header-ul a:hover {
   border-bottom: 2px #fff solid; }
@@ -546,7 +546,8 @@ input[type="checkbox"]:checked + label span {
   display: inline-block; }
 
 .footer-logo {
-  padding-top: 75px; }
+  padding-top: 75px;
+  display: block; }
 
 .modal {
   display: none;
