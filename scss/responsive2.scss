@@ -83,8 +83,22 @@
     max-width: 100%;
     max-height: 100%;
   }
+  .duble{
+    justify-content: flex-end;
+  }
+  .price-btn{
+    margin:0;
+    position: relative;
+    top: 35px;
+  }
+  .tel{
+    margin-right: 20px;
+  }
   .home-card-right{
     float: none;
+    text-align: center;
+    margin-top: 20px;
+    padding-left: 0;
   }
   .select-form{
     width: 100%;
@@ -117,7 +131,13 @@
   }
   .footer-content{
        flex-wrap: wrap;
+       justify-content: space-around;
      }
+  .home{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+  }
   .footer-info{
     padding-bottom: 30px;
   }

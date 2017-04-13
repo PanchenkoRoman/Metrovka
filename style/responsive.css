@@ -49,7 +49,8 @@
   .phone, .menu-hidden {
     display: none; }
   .footer-content {
-    flex-wrap: wrap; }
+    flex-wrap: wrap;
+    justify-content: space-around; }
   .footer-info {
     padding-bottom: 30px; }
   .footer {
