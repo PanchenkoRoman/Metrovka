@@ -1,4 +1,28 @@
+@media screen and (max-width: 1280px) and (min-width: 1000px) {
+  .map {
+    padding-right: 1%;
+    padding-left: 10px;
+    height: 600px;
+    width: 16%;
+    margin-top: 157px; }
+  .home-card-right {
+    padding-left: 30px; } }
+
+@media screen and (max-width: 1000px) and (min-width: 891px) {
+  .map {
+    display: none; }
+  .header-second .header-login {
+    margin-left: 6%; } }
+
 @media screen and (max-width: 890px) and (min-width: 769px) {
+  .map {
+    display: none; }
+  .card-features {
+    max-width: 295px; }
+  .home-card-right {
+    padding-left: 1px; }
+  .header-second .header-login {
+    margin-left: 6%; }
   .header {
     padding: 0 10px; }
   .select {
@@ -9,18 +33,14 @@
     padding-left: 0px; }
   .header-ul li {
     margin-right: 18px; }
-  .resp-img-big {
-    background-size: contain;
-    width: 48%;
-    margin-right: 1%; }
   .modal-content {
     width: 96%; }
   .close:after {
     left: 305px; } }
 
 @media screen and (max-width: 768px) and (min-width: 481px) {
-  .container-main {
-    margin: 0 10px; }
+  .map {
+    display: none; }
   .header-menu {
     z-index: 1; }
   h1 {
@@ -29,6 +49,17 @@
     padding-top: 30px; }
   .select {
     width: 310px; }
+  .home-card-left {
+    flex-direction: column;
+    float: none;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  .home-img {
+    max-width: 100%;
+    max-height: 100%; }
+  .home-card-right {
+    float: none; }
   .select-form {
     width: 100%; }
   .select-type {
