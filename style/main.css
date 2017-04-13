@@ -410,7 +410,7 @@ option {
 .header-ul {
   display: flex;
   flex-direction: row;
-  padding-left: 10%; }
+  padding-left: 12%; }
   .header-ul li {
     margin-right: 40px; }
   .header-ul li:last-child {
