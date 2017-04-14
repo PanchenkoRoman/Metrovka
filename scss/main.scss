@@ -77,6 +77,21 @@ span{
   background: rgba(90, 104, 114, 0.5);
   filter: blur(16px);
 }
+.resp-img-blog{
+  position: relative;
+}
+.resp-img-blog:after{
+  display: block;
+  content: '\2026';
+  color: white;
+  position: absolute;
+  font-size: 26px;
+  font-weight: 900;
+  transform: rotate(-90deg);
+  top: 8%;
+  right: 5%;
+  cursor: pointer;
+}
 @import 'telegram';
 @import 'blog';
 @import "buttons";
