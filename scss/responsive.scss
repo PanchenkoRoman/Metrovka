@@ -9,7 +9,7 @@
   .select{
     width: 344px / 1129px * 100%;
   }
-  .select-form{
+  .select-form, .styledSelect{
     width: 100%;
   }
   .search{
@@ -48,7 +48,7 @@
   .select{
     width: 310px;
   }
-  .select-form{
+  .select-form, .styledSelect{
     width: 100%;
   }
   .select-type{
@@ -168,8 +168,8 @@
   .select{
     width: 310px;
   }
-  .select-form{
-    width: 80%;
+  .select-form, .styledSelect{
+    width: 100%;
   }
   .select-type{
     float: none;

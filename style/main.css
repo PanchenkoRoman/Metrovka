@@ -4,6 +4,9 @@ html {
   color: #152935;
   font-size: 14px; }
 
+section {
+  margin: 20px 0; }
+
 body {
   background: rgba(90, 104, 114, 0.08); }
 
@@ -64,7 +67,7 @@ span {
   filter: blur(16px); }
 
 .main-text {
-  padding-top: 60px;
+  padding-top: 0;
   text-align: center;
   max-width: 540px;
   margin: 0 auto;
@@ -163,32 +166,29 @@ span {
   font-size: 11px;
   line-height: 28px; }
 
-.content-best .blog-card {
-  width: 22%; }
+.content-best {
+  background-color: white; }
+  .content-best .blog-card {
+    width: 22%; }
+  .content-best .blog-card:nth-child(3) {
+    margin-right: 12px; }
+  .content-best .resp-img-blog, .content-best .resp-img2-blog, .content-best .resp-img3-blog {
+    background-image: url("../img/room4.png"); }
 
-.content-best .blog-card:nth-child(3) {
-  margin-right: 12px; }
-
-.content-best .resp-img-blog, .content-best .resp-img2-blog, .content-best .resp-img3-blog {
-  background-image: url("../img/room4.png"); }
-
-.content-last .blog-card {
-  width: 22%; }
-
-.content-last .blog-card:nth-child(3) {
-  margin-right: 12px; }
-
-.content-last .content-last-img4 {
-  background-image: url("../img/room4.png"); }
-
-.content-last .content-last-img1 {
-  background-image: url("../img/room1.png"); }
-
-.content-last .content-last-img2 {
-  background-image: url("../img/room2.png"); }
-
-.content-last .content-last-img3 {
-  background-image: url("../img/room3.png"); }
+.content-last {
+  background-color: white; }
+  .content-last .blog-card {
+    width: 22%; }
+  .content-last .blog-card:nth-child(3) {
+    margin-right: 12px; }
+  .content-last .content-last-img4 {
+    background-image: url("../img/room4.png"); }
+  .content-last .content-last-img1 {
+    background-image: url("../img/room1.png"); }
+  .content-last .content-last-img2 {
+    background-image: url("../img/room2.png"); }
+  .content-last .content-last-img3 {
+    background-image: url("../img/room3.png"); }
 
 .btn-large {
   height: 40px;
@@ -319,7 +319,7 @@ span {
   padding: 0px 0px 0px 11px; }
 
 .content-near-metro {
-  margin-top: 20px; }
+  margin: 20px 0; }
 
 .select-type {
   float: left;
@@ -366,7 +366,7 @@ option {
   line-height: 18px; }
 
 .select-metro {
-  width: 315px;
+  width: 315px !important;
   font-size: 12px;
   line-height: 16px;
   margin-bottom: 2px; }
