@@ -71,18 +71,6 @@ span {
 .resp-img-blog, .resp-img2-blog, .resp-img3-blog {
   position: relative; }
 
-.resp-img-blog:after, .resp-img2-blog:after, .resp-img3-blog:after {
-  display: block;
-  content: '\2026';
-  color: white;
-  position: absolute;
-  font-size: 26px;
-  font-weight: 900;
-  transform: rotate(-90deg);
-  top: 8%;
-  right: 5%;
-  cursor: pointer; }
-
 .main-text {
   padding-top: 0;
   text-align: center;
@@ -207,6 +195,18 @@ span {
   .content-last .content-last-img3 {
     background-image: url("../img/room3.png"); }
 
+/*.resp-img-blog:after{
+  display: block;
+  content: '\2026';
+  color: white;
+  position: absolute;
+  font-size: 26px;
+  font-weight: 900;
+  transform: rotate(-90deg);
+  top: 8%;
+  right: 5%;
+  cursor: pointer;
+}*/
 .btn-large {
   height: 40px;
   width: 320px;
