@@ -35,7 +35,7 @@
     float: none;
     margin: 0 auto; }
   .resp-img-big {
-    background-size: 90%;
+    background-size: contain;
     width: 100%;
     float: none; }
   .search {
@@ -157,7 +157,7 @@
     padding-left: 30px; }
   .telegram-change a {
     font-size: 12px;
-    margin-right: 14px; }
+    margin-right: -25px; }
   .blog-card:nth-child(2) {
     margin: 0; }
   .content-last .blog-card:last-child, .content-best .blog-card:last-child {

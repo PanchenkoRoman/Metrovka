@@ -50,6 +50,9 @@
   a{
     border-bottom: 2px rgba(0,0,0,0) solid;
     padding: 0px 5px 9px 5px;
+    transition-property: border-bottom;
+    transition-timing-function: ease-in;
+    transition-duration: 0.2s;
   }a:hover{
        border-bottom: 2px #fff solid ;
      }

@@ -29,12 +29,22 @@
   justify-content: center;
   li {
     margin-right: 42px;
+    a{
+      border-bottom: 2px transparent solid ;
+      padding:0px 6px 9px 6px;
+      transition-property: border-bottom;
+      transition-timing-function: ease-in;
+      transition-duration: 0.2s;
+      &:hover{
+        border-bottom: 2px $prymary-color solid ;
+      }
+    }
   }
-  .flats_active {
+  /*.flats_active {
     border-bottom: 2px #30AE63 solid ;
     padding:0px 6px 9px 6px;
 
-  }
+  }*/
 }
 .near-metro-flats {
   margin-top: 0px;
@@ -42,8 +52,7 @@
   li:first-child {
     margin-left: -38px;
   }
-
-}
+  }
 
 .select-form {
   width: 344px;
