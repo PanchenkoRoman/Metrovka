@@ -31,7 +31,9 @@
   .header-second .header-login{
     margin-left: 6%;
   }
-
+  .header-menu{
+    width: 53%;
+  }
   .header{
     padding: 0 10px;
   }
@@ -59,6 +61,9 @@
 @media screen and (max-width: 768px) and (min-width: 481px) {
   .map{
     display: none;
+  }
+  .logo{
+    z-index: 999;
   }
   .header-menu{
     z-index: 1;
@@ -201,6 +206,9 @@
 @media screen and (max-width: 480px) and (min-width: 320px) {
   .map {
     display: none;
+  }
+  .logo{
+    z-index: 999;
   }
   .header-menu {
     z-index: 1;

@@ -60,7 +60,9 @@ span {
   display: none; }
 
 .hidden {
-  display: none; }
+  display: none;
+  margin: 0;
+  padding: 0; }
 
 .blur {
   background: rgba(90, 104, 114, 0.5);
@@ -406,7 +408,8 @@ option {
   justify-content: space-between; }
 
 .header-menu {
-  padding-top: 10px; }
+  padding-top: 10px;
+  width: 57%; }
 
 .header-ul {
   display: flex;
