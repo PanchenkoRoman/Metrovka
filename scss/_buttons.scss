@@ -119,6 +119,16 @@
   font-size: 14px;
   line-height: 17.09px;
   padding: 8px 40px;
+  transition: all 0.2s ease-in;
+  &:hover{
+    background-color: $prymary-color;
+    color: white;
+    border-color: $prymary-color;
+  }
+}
+.search-button-disabled{
+  @extend .search-button;
+  opacity: 0.5;
 }
 
   .application {

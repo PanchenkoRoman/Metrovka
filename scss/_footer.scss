@@ -56,6 +56,10 @@ flex-direction: row;
 .fa{
   margin-right: 14px;
   color: #8C9BA5;
+  transition: color 0.2s linear;
+  &:hover{
+    color: $prymary-color;
+  }
 }
 
 .footer-info-mail{

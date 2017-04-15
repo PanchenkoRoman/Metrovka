@@ -133,6 +133,12 @@
   .header-ul{
     padding-left: 50px;
   }
+  .blog {
+    .resp-img-blog:after, .resp-img2-blog:after, .resp-img3-blog:after {
+      left: 64%;
+      top: -11%;
+    }
+  }
 
 }
 @media screen and (max-width: 480px) and (min-width: 320px){
@@ -305,4 +311,5 @@
   .header-ul{
     padding-left: 50px;
   }
+
 }
