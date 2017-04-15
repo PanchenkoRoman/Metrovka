@@ -539,6 +539,7 @@ input[type="checkbox"]:checked + label span {
   flex-direction: row;
   justify-content: space-between;
   color: #152935; }
+
 .footer-info, .footer-partner, .footer-more, .footer-contacts {
   flex-direction: column;
   max-width: 162px; }
