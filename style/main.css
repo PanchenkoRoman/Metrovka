@@ -541,7 +541,6 @@ input[type="checkbox"]:checked + label span {
   margin-top: 50px; }
   .footer ul {
     flex-direction: column; }
-
 .footer-content {
   display: flex;
   flex-direction: row;
