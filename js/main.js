@@ -1,7 +1,7 @@
 window.onload = function () {
     var modal = document.getElementById('modal'),
         modalBtn = document.getElementById('modalBtn'),
-        modalBtn2 = document.getElementsByClassName('header-insert')[0];
+        modalBtn2 = document.getElementsByClassName('header-insert')[0],
         close = document.getElementById('closeX');
 
     modalBtn.onclick = function () {
@@ -14,6 +14,12 @@ window.onload = function () {
         modalBtn2.classList.remove('header-insert');
         modalBtn2.classList.add('disabled');
     }
+    $('.search-button').each(function (indx, element) {
+        $(this).click(function () {
+            $(this).removeClass('search-button');
+            $(this).addClass('search-button-disabled');
+        })
+    });
 
     window.onclick = function (event) {
         if (event.target == modal || event.target == close) {

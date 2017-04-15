@@ -195,7 +195,7 @@ span {
   .content-last .content-last-img3 {
     background-image: url("../img/room3.png"); }
 
-/*.resp-img-blog:after{
+.resp-img-blog:after, .resp-img2-blog:after, .resp-img3-blog:after {
   display: block;
   content: '\2026';
   color: white;
@@ -205,8 +205,8 @@ span {
   transform: rotate(-90deg);
   top: 8%;
   right: 5%;
-  cursor: pointer;
-}*/
+  cursor: pointer; }
+
 .btn-large {
   height: 40px;
   width: 320px;
@@ -304,7 +304,7 @@ span {
 .header-login-href {
   padding: 10px 6px 0px 12px; }
 
-.search-button {
+.search-button, .search-button-disabled {
   width: 201px;
   height: 40px;
   background-color: #fff;
@@ -313,7 +313,15 @@ span {
   color: #30AE63;
   font-size: 14px;
   line-height: 17.09px;
-  padding: 8px 40px; }
+  padding: 8px 40px;
+  transition: all 0.2s ease-in; }
+  .search-button:hover, .search-button-disabled:hover {
+    background-color: #30AE63;
+    color: white;
+    border-color: #30AE63; }
+
+.search-button-disabled {
+  opacity: 0.5; }
 
 .application {
   height: 40px;
@@ -571,7 +579,10 @@ input[type="checkbox"]:checked + label span {
 
 .fa {
   margin-right: 14px;
-  color: #8C9BA5; }
+  color: #8C9BA5;
+  transition: color 0.2s linear; }
+  .fa:hover {
+    color: #30AE63; }
 
 .footer-info-mail {
   padding: 24px 0;
