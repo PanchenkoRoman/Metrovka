@@ -38,7 +38,7 @@ window.onload = function () {
     });
 
     $('.slicknav_btn').click(function(){
-        $('.header-content').not('.header-ul').toggleClass('blur');
+        $('.container').not('.header-ul').toggleClass('blur');
         return false;
     });
 }

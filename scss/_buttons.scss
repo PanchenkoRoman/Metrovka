@@ -14,11 +14,18 @@
   line-height: 40px;
   letter-spacing: 0.02px;
   color: #FFFFFF;
+  transition-property: background;
+  transition-timing-function: linear;
+  transition-duration: 0.2s;
   &:hover{
     background: $prymary-color-hover;
   }&:visited{
     opacity: 0.5;
      }
+}
+
+.primary-disabled{
+  opacity: 0.5;
 }
 
 
@@ -42,6 +49,7 @@
   width: 148px;
   display: flex;
   align-items: center;
+  border-radius: 5px;
   justify-content: space-around;
   margin: 20px 0;
   line-height: 36px;
@@ -86,6 +94,7 @@
   border-radius: 3px;
 }
 .header-insert {
+  cursor: pointer;
   text-align: center;
   border: none;
   text-decoration: none;
@@ -111,10 +120,27 @@
   line-height: 17.09px;
   padding: 8px 40px;
 }
-.application {
-  height: 40px;
-  width:162px;
-  display: block;
-  line-height: 18px;
-  font-size: 14px;
-}
+
+  .application {
+    height: 40px;
+    line-height: 40px;
+    width: 162px;
+    display: block;
+    font-size: 14px;
+  }
+
+
+  .disabled {
+    opacity: 1.00;
+    border: 2px solid #30AE63;
+    color: #30AE63;
+    background-color: white;
+    cursor: pointer;
+    text-align: center;
+    width: 236px;
+    height: 40px;
+    line-height: 17.09px;
+    font-size: 14px;
+    padding: 0px 0px 0px 11px;
+  }
+

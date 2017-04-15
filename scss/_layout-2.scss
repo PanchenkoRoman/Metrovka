@@ -1,0 +1,75 @@
+.places{
+  display: flex;
+  justify-content: center;
+}
+.description-cards {
+  max-width: 890px;
+  padding-top: 20px;
+  span {
+    color: #2573D8;
+  }
+}
+.map{
+  width: 30%;
+  margin-top: 157px;
+  padding-left: 20px;
+}
+#sort{
+  margin-right: 30px;
+}
+
+.description-cards-footer{
+  padding-left: 20px;
+}
+
+.places-variant{
+  span{
+  color: #8C9BA5;
+  float: left;
+  }
+  select{
+    color: #8C9BA5;
+    background: rgba(90, 104, 114, 0);
+    border:none;
+    float: right;
+  }select:focus{
+    border: none;
+    outline: none;
+     }
+}
+
+.header-second{
+  height: 80px;
+  display: flex;
+  padding-left: 20px;
+  .navigation{
+    display: block;
+    float: left;
+  }
+  .header-content{
+    min-height: 0px;
+    width: 100%;
+  }
+  .header-login{
+    float: left;
+    margin-left: 10%;
+  }
+  .header-menu{
+    float: left;
+  }
+}
+.footer-2{
+  display: block;
+  float: left;
+  padding-left: 5%;
+}
+
+.smal-visible, .hiden-xs{
+  display: none;
+}
+
+
+
+
+
+

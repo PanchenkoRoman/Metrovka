@@ -9,16 +9,13 @@
 
 input[type="checkbox"] {
   display:none;
-
 }
 input[type="checkbox"] + label span {
   display:inline-block;
-   width:42px;
-   height:42px;
-   text-align: center;
-   padding-top: 12px;
-
-
+  width:42px;
+  height:42px;
+  text-align: center;
+  padding-top: 12px;
   background:url(../img/checkbox.png) 0 0 no-repeat;
   cursor:pointer;
 }
@@ -26,3 +23,4 @@ input[type="checkbox"]:checked + label span {
   background:url(../img/checkbox_checked.png) 0 0 no-repeat;
   color: #152935;
 }
+

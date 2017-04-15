@@ -2,16 +2,247 @@
 <html>
 <head lang="ru">
     <meta charset="UTF-8">
-    <title>Я собираю проекты как рок звезда</title>
-    <link rel="stylesheet" type="text/css" href="style/main.css">
+    <title>Data-root</title>
+    <link rel="stylesheet" type="text/css" href="../style/reset.css">
+    <link rel="stylesheet" type="text/css" href="../style/main.css">
+    <link rel="stylesheet" href="../style/select.css">
+    <link rel="stylesheet" href="../style/slicknav.css">
+    <link rel="stylesheet" href="../style/responsive2.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 </head>
 <body>
-    //= template/header.html
+<header class="header header-second">
+    <div class="header-content">
+        <div class="navigation">
+            <div class="header-menu">
+                <a class="logo" href="../index.html"><img src="../img/logo.svg" alt="logo"></a>
+                <ul class="header-ul">
+                    <li><a href="template/second.html" class="menu-active">Аренда</a></li>
+                    <li class="menu-hidden"><a href="">Продажа</a></li>
+                    <li class="menu-hidden"><a href="">Посуточно</a></li>
+                    <li class="menu-hidden"><a href="">• • •  Еще</a></li>
+                    <button class="header-insert hidden"><a href="#">Разместить объявление</a></button>
+                    <a href="index.html" class="header-login-href hidden">Войти</a>
 
-    <section class="content">
-        Content
-    </section>
-    
-   
+                </ul>
+            </div>
+            <div class="header-login menu-hidden">
+                <button id="modalBtn" class="header-insert"><a href="#">Разместить объявление</a></button>
+                <div id="modal" class="modal">
+                    <div class="modal-content">
+                        <div class="modal-text">
+                            <h2>Оставить заявку</h2><br>
+                            <span>Нет времени искать по сайту? Заполняй критерии поиска и получай акутальные объявления как только они появляются на Metrovka.</span>
+                        </div>
+                        <div class="modal-form">
+                            <p id="closeX" class="close"></p>
+                            <form action="post">
+                                <ul class="select-flats near-metro-flats">
+                                    <li><a href="" class="flats_active">Район</a></li>
+                                    <li><a href=""></a>Метро</li>
+                                </ul>
+                                <select name="select-metro" class="select-form select-metro">
+                                    <option value="Голосеевский" selected><span class="metro">Голосеевский</span></option>
+                                    <option value="Соломенский">Соломенский</option>
+                                </select>
+                                <div class="header-checkbox">
+                                    <span>Кол-во комнат</span>
+                                    <div class="checkbox">
+                                        <input type="checkbox" name="checkbox1" id="checkbox-check1" checked>
+                                        <label for="checkbox-check1" class="checkboxs"><span>1</span></label>
+                                        <input type="checkbox" name="checkbox2" id="checkbox-check2" checked>
+                                        <label for="checkbox-check2" class="checkboxs"><span>2</span></label>
+                                        <input type="checkbox" name="checkbox3" id="checkbox-check3">
+                                        <label for="checkbox-check3" class="checkboxs"><span>3</span></label>
+                                        <input type="checkbox" name="checkbox4" id="checkbox-check4">
+                                        <label for="checkbox-check4"class="checkboxs"><span>4</span></label>
+                                        <input type="checkbox" name="checkbox5" id="checkbox-check5">
+                                        <label for="checkbox-check5"><span>5+</span></label>
+                                    </div>
+                                </div>
+                                <input class="modal-input modal-input-first" type="text" placeholder="Как вас зовут?" required>
+                                <input class="modal-input modal-input-second" type="email" placeholder="Email" required>
+                                <input type="submit" class="primary btn-large" value="Оставить заявку">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <a href="index.html" class="header-login-href">Войти</a>
+            </div>
+
+        </div>
+    </div>
+    <div class="mobile-menu"></div>
+</header>
+<div class="container">
+    <div class="places">
+        <div class="description-cards">
+            <div class="description-cards-footer">
+                <span class="hiden-xs"><a href="../index.html">На главную</a></span>
+                <span class="hiden-lg"><a href="#">Долгосрочная аренда</a>  /  <a href="#">Квартиры</a>  /  <a href="#">Киев</a></span><br>
+                <h2>Долгосрочная аренда квартир в Киеве</h2><br>
+                <div class="places-variant clearfix">
+                    <span>3 варианта размещения</span><br class="smal-visible">
+                    <form action="">
+                        <select name="money" id="money">
+                            <option selected>Валюта</option>
+                        </select>
+                        <select name="sorted" id="sort">
+                            <option selected>Сортировать</option>
+                        </select>
+                    </form>
+                </div>
+            </div>
+            <div class="home clearfix">
+                <div class="home-card-left">
+                    <img class="home-img" src="../img/11.png" alt="">
+                    <div class="card-features">
+                        <h3>22 комн., Дарницкий р-н, Пчелки 2б</h3><br>
+                        <span class="region"><span></span> Позняки</span><span class="region-metro">30 мин пешком</span><br>
+                        <div  class="features"><span>Особенности</span><br>
+                            <span>120 кв. м. •  этаж 1 из 5</span><br></div>
+                        <span id="color">Комунальные включены, без старой мебели, новый дом, дизайнерский ремонт, тихий район, удобная транспортная развязка, шикарный вид на Днепр.</span>
+                    </div>
+                </div>
+                <div class="home-card-right">
+                    <h3>11 600 грн</h3><br class="hiden-lg">
+                    <span>460$ курс</span><br class="hiden-lg">
+                    <a class="price-btn high" href="#">Высокая цена<img src="../img/i.png"></a>
+                    <div class="duble">
+                        <a class="send-btn tel" id="send-btn" href="#"><img src="../img/Shape.png" alt=""></a>
+                        <a class="send-btn mes" id="send-btn" href="#"><img src="../img/Facebook_Messenger_1_.png" alt=""></a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="home-after">
+                <div class="home-dots"><span class="home-dot-active"></span><span class="home-dot"></span>
+                </div>
+                <div class="infr">
+                    <p><a href="#">След. раздел <img src="../img/arrr.png" alt=""></a></p>
+                    <p><a href="#">Инфраструктура</a></p>
+                </div>
+            </div>
+
+            <div class="home clearfix">
+                <div class="home-card-left">
+                    <img class="home-img" src="../img/12.png" alt="">
+                    <div class="card-features">
+                        <h3>2 комн., Оболонский р-н, Полярная 20</h3><br>
+                        <span class="region region-blue"><span></span> Героев Днепра </span><span class="region-metro">10 мин. пешком</span><br>
+                        <div  class="features"><span>Особенности</span><br>
+                            <span>78 кв. м. • этаж 2 из 5 </span><br></div>
+                        <span id="color">Без комунальных, евроремонт, хозяева в Польше, 15 мин. до озера, кофеварка, уборщица.</span>
+                    </div>
+                </div>
+                <div class="home-card-right">
+                    <h3>10 500 грн</h3><br class="hiden-lg">
+                    <span>420$ курс</span><br class="hiden-lg">
+                    <a class="price-btn lov" href="#">Хорошая цена<img src="../img/i.png"></a>
+                    <div class="duble">
+                        <a class="send-btn tel" id="send-btn" href="#"><img src="../img/Shape.png" alt=""></a>
+                        <a class="send-btn mes" id="send-btn" href="#"><img src="../img/Facebook_Messenger_1_.png" alt=""></a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="home-after">
+                <div class="home-dots"><span class="home-dot-active"></span><span class="home-dot"></span>
+                </div>
+                <div class="infr">
+                    <p><a href="#">След. раздел <img src="../img/arrr.png" alt=""></a></p>
+                    <p><a href="#">Инфраструктура</a></p>
+                </div>
+
+            </div>
+            <div class="home clearfix">
+                <div class="home-card-left">
+                    <img class="home-img" src="../img/13.png" alt="">
+                    <div class="card-features">
+                        <h3>2 комн., Оболонский р-н, Полярная 20</h3><br>
+                        <span class="region region-blue"><span></span> Героев Днепра </span><span class="region-metro">10 мин. пешком</span><br>
+                        <div  class="features"><span>Особенности</span><br>
+                            <span>78 кв. м. • этаж 2 из 5 </span><br></div>
+                        <span id="color">Без комунальных, евроремонт, хозяева в Польше, 15 мин. до озера, кофеварка, уборщица.</span>
+                    </div>
+                </div>
+                <div class="home-card-right">
+                    <h3>10 500 грн</h3><br class="hiden-lg">
+                    <span>420$ курс</span><br class="hiden-lg">
+                    <a class="price-btn lov" href="#">Хорошая цена<img src="../img/i.png"></a>
+                    <div class="duble">
+                        <a class="send-btn tel" id="send-btn" href="#"><img src="../img/Shape.png" alt=""></a>
+                        <a class="send-btn mes" id="send-btn" href="#"><img src="../img/Facebook_Messenger_1_.png" alt=""></a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="home-after">
+                <div class="home-dots"><span class="home-dot-active"></span><span class="home-dot"></span>
+                </div>
+                <div class="infr">
+                    <p><a href="#">След. раздел <img src="../img/arrr.png" alt=""></a></p>
+                    <p><a href="#">Инфраструктура</a></p>
+                </div>
+
+            </div>
+        </div>
+        <div class="map" id="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d5081.118148436458!2d30.521207421668034!3d50.449313090410214!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sua!4v1491668615755" width="100%" height="96%" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+    </div>
+</div>
+<footer class="footer footer-2">
+    <div class="footer-content">
+        <div class="footer-info">
+            <span class="footer-info-head">Metrovka</span>
+            <ul class="footer-info-list">
+                <li><a href="#">О компании</a></li>
+                <li><a href="#">Пресса о нас</a></li>
+                <li><a href="#">Пользовательское соглашение</a></li>
+                <li><a href="#">Карта сайта</a></li>
+                <li><a href="#">Помощь</a></li>
+            </ul>
+
+        </div>
+        <div class="footer-partner">
+            <span class="footer-info-head">Партнёрство</span>
+            <ul class="footer-info-list">
+                <li><a href="#">Как разместить обьявление</a></li>
+                <li><a href="#">Инструменты продвижения</a></li>
+                <li><a href="#">Правила заполнения объявлений</a></li>
+            </ul>
+        </div>
+        <div class="footer-more">
+            <span class="footer-info-head">Узнайте больше</span>
+            <ul class="footer-info-list">
+                <li><a href="#">Бонусная программа Bonus+</a></li>
+                <li><a href="#">Telegram Metrovka Bot</a></li>
+                <li><a href="#">Как работает поиск</a></li>
+                <li id="btn-prime2"><a href="#">Как пользоваться избранным</a></li>
+            </ul>
+        </div>
+        <div class="footer-contacts">
+            <span class="footer-info-head">Контакты</span>
+            <div class="contacts-logos">
+                <a href="#"><i class="fa fa-vk fa-lg" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-facebook-official fa-lg" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-instagram fa-lg" aria-hidden="true"></i></a>
+            </div>
+            <span class="footer-info-adress">ул. Жилянская, 37</span> <br>
+            <span class="footer-info-index">Киев, 01033</span>
+            <a href="mailto:info@metrovka.ua" class="footer-info-mail">info@metrovka.ua</a>
+            <a id="btn-prime" href="#" class="primary application">Отправить заявку</a>
+        </div>
+    </div>
+    <a class="footer-logo" href="index.html"><img src="../img/logo-grey.svg" alt="Logo" class="image-logo"></a>
+</footer>
+
+<script src="../js/second.js" ></script>
+<script src="https://use.fontawesome.com/2b2d642d24.js"></script>
+<script src="../js/jquery.js"></script>
+<script src="../js/jquery.slicknav.min.js"></script>
+<script src="../js/select.js"></script>
 </body>
 </html>

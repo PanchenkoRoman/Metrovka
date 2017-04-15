@@ -8,6 +8,9 @@ html {
   color: #152935;
   font-size: 14px;
 }
+section{
+  margin: 20px 0;
+}
 body{
   background: rgba(90, 104, 114, 0.08);
 }
@@ -46,6 +49,38 @@ span{
   max-width: 890px;
 }
 
+.resp-img-blog{
+  display: inline-block;
+  width: 100%;
+  background-image: url("../img/life.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 182px;
+}
+.resp-img2-blog{
+  @extend .resp-img-blog;
+  background-image: url("../img/advise.png");
+}
+.resp-img3-blog{
+  @extend .resp-img-blog;
+  background-image: url("../img/technology.png");
+}
+.slicknav_menu {
+  display:none;
+}
+.hidden{
+  display: none;
+  margin: 0;
+  padding: 0;
+}
+.blur{
+  background: rgba(90, 104, 114, 0.5);
+  filter: blur(16px);
+}
+.resp-img-blog{
+  position: relative;
+}
+
 @import 'telegram';
 @import 'blog';
 @import "buttons";
@@ -53,3 +88,6 @@ span{
 @import "header";
 @import "checkbox";
 @import "footer";
+@import "modal";
+@import "desc-card";
+@import "layout-2";

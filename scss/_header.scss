@@ -23,11 +23,14 @@
 }
 .header-menu{
   padding-top: 10px;
+  width: 57%;
 
 }
+
 .header-ul {
   display: flex;
   flex-direction: row;
+  padding-left: 12%;
 
   li {
     margin-right: 40px;
@@ -37,11 +40,34 @@
  }
 }
 
-.menu-active {
+/*.menu-active {
   border-bottom: 2px #fff solid ;
   padding:0px 6px 9px 6px;
 
+}*/
+
+.header-ul{
+  a{
+    border-bottom: 2px rgba(0,0,0,0) solid;
+    padding: 0px 5px 9px 5px;
+    transition-property: border-bottom;
+    transition-timing-function: ease-in;
+    transition-duration: 0.2s;
+  }a:hover{
+       border-bottom: 2px #fff solid ;
+     }
+  button{
+    a{
+      border: none;
+    }
+    a:hover{
+      border: none;
+    }
+  }
 }
+
+
+
 .header-login {
   // max-width: 298px;
   flex-direction: row;
@@ -65,11 +91,16 @@
 .select, .header-checkbox{
   display: flex;
   flex-direction: column;
-  margin-right: 39px;
+  margin-right: 39px / 1129px *100%;
 }
 .select-span {
   margin-bottom: 8px;
 }
 .search {
   padding: 39px 0px 0px 16px;
+}
+.logo{
+  position: absolute;
+  cursor: pointer;
+  top:20px;
 }

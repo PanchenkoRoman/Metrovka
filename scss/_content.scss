@@ -6,16 +6,22 @@
 
 }
 .content-near-metro {
-  margin-top: 20px;
-  background: #fff url('../img/illustration/metro.png') 93% 50% no-repeat ;
+  margin: 20px 0;
 }
 .select-type {
+  float: left;
   max-width: 320px;
   margin-left: 40px;
   padding-top: 20px;
   padding-bottom: 42px;
-
-
+  }
+.resp-img-big{
+  float: right;
+  background-image: url('../img/illustration/metro.png');
+  background-position: 29%;
+  background-repeat: no-repeat;
+  height: 296px;
+  width: 50%;
 }
 .select-flats {
   display: flex;
@@ -23,12 +29,22 @@
   justify-content: center;
   li {
     margin-right: 42px;
+    a{
+      border-bottom: 2px transparent solid ;
+      padding:0px 6px 9px 6px;
+      transition-property: border-bottom;
+      transition-timing-function: ease-in;
+      transition-duration: 0.2s;
+      &:hover{
+        border-bottom: 2px $prymary-color solid ;
+      }
+    }
   }
-  .flats_active {
+  /*.flats_active {
     border-bottom: 2px #30AE63 solid ;
     padding:0px 6px 9px 6px;
 
-  }
+  }*/
 }
 .near-metro-flats {
   margin-top: 0px;
@@ -36,8 +52,7 @@
   li:first-child {
     margin-left: -38px;
   }
-
-}
+  }
 
 .select-form {
   width: 344px;
@@ -54,7 +69,7 @@ option {
 }
 
 .select-metro {
-  width: 315px;
+  width: 315px!important;
   font-size: 12px;
   line-height: 16px;
   margin-bottom: 2px;
